@@ -28,7 +28,7 @@ public class JobFactory implements Function<String, WikiJob> {
     @Override
     public WikiJob apply(final String job) {
         LOGGER.info(this.sampleJob.toString());
-        if ("--word-count-job".equals(job)) {
+        if ("word-count-job".equals(job)) {
             return wordCountJob;
         } else {
             printOptions();
