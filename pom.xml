@@ -12,7 +12,7 @@
     <artifactId>wiki-science</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>wiki-science</name>
-    <description>Demo project for Spring Boot</description>
+    <description>basecamp20-prakt-4 project</description>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
@@ -30,6 +30,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.2.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -44,6 +45,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.2.4.RELEASE</version>
             <scope>test</scope>
             <exclusions>
                 <exclusion>
@@ -59,6 +61,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.4.RELEASE</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
