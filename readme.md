@@ -1,6 +1,10 @@
 # startup
 
 ## Dev
+### Compile
+```mvn clean install``` für compilen + packaging + tests
+```mvn clean install -DskipTests```für compile + packaging aber ohne ausführen von tests
+
 ### Default Startup
 um mittels maven und default parametern zu starten (zum test) lass folgendes laufen:
 ```mvn spring-boot:run```
