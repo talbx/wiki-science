@@ -11,15 +11,11 @@ public interface Arguments {
 
     String getOutput();
 
-    static ImmutableArguments of(String[] args) {
-        if (args.length < 3) {
-            throw new IllegalStateException("There must be a minimum of 3 vm arguments in order to run the application:\n" +
-                    "1. job name, 2. inputfile, 3. outputfile");
-        }
+    static ImmutableArguments of(String job, String input, String output) {
         return ImmutableArguments.builder()
-                .job(args[0])
-                .input(args[1])
-                .output(args[2])
+                .job(job)
+                .input(input)
+                .output(output)
                 .build();
     }
 }
