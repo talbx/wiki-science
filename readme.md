@@ -7,6 +7,8 @@
 
 The script `scripts/wiki-download-helper.py` produces wget helper commands from wikipedia dumpstatus.json. 
 
+**usage:**  `wiki-download-helper.py < url_to_dumpstatus.json>`
+
 *note:* The generated download bash script does not contain a shebang, each line contains a simple 'wget < url >'.
 
 **Example usage** for wikipedia dump 20200201: `python scripts/wiki-download-helper.py https://dumps.wikimedia.org/enwiki/20200201/dumpstatus.json > scripts/download_20200201.bash && chmod +x scripts/download_20200201.bash`
