@@ -4,12 +4,10 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
-import org.springframework.stereotype.Component;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
-@Component
 public class WordCountJob implements WikiJob {
 
     private JobConf conf;
@@ -37,5 +35,10 @@ public class WordCountJob implements WikiJob {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String getName() {
+        return "word-count";
     }
 }

@@ -36,4 +36,9 @@ public class ContributorCountJob implements WikiJob {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public String getName() {
+        return "contributor-count";
+    }
 }

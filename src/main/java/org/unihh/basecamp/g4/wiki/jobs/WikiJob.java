@@ -9,4 +9,6 @@ public interface WikiJob {
      * dispatch the WikiJob to hadoop
      */
     void start(String input, String Output);
+
+    String getName();
 }

@@ -1,16 +1,15 @@
-package org.unihh.basecamp.g4.wiki.jobs;
+package org.unihh.basecamp.g4.wiki.jobs.contributors;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
-import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountJob;
-import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountMapper;
-import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorTypeMapper;
+import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
+import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
-public class ContributorTypeJob  implements WikiJob {
+public class ContributorTypeJob implements WikiJob {
     private JobConf conf;
 
     public ContributorTypeJob() {
@@ -36,5 +35,10 @@ public class ContributorTypeJob  implements WikiJob {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String getName() {
+        return "contributor-type";
     }
 }
