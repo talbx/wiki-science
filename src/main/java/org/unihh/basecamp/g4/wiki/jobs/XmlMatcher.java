@@ -61,7 +61,9 @@ public class XmlMatcher {
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node currentNode = nodeList.item(i);
             if (args.contains(currentNode.getNodeName())) {
-                word.set(currentNode.getTextContent());
+                String textContent = currentNode.getTextContent();
+                textContent = textContent.replaceAll("[^a-zA-Z0-9]", "");
+                word.set(textContent);
                 output.collect(word, one);
             } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
                 processNode(args, currentNode);
