@@ -1,6 +1,7 @@
 package org.unihh.basecamp.g4.wiki;
 
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
+import org.unihh.basecamp.g4.wiki.jobs.articles.ArticleLengthJob;
 import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountJob;
 import org.unihh.basecamp.g4.wiki.jobs.wordcount.WordCountJob;
 
@@ -21,9 +22,7 @@ public class JobFactory implements Function<String, WikiJob> {
     private final List<WikiJob> jobs;
 
     public JobFactory() {
-        final WikiJob wordCountJob = new WordCountJob();
-        final WikiJob contributorCountJob = new ContributorCountJob();
-        jobs = Arrays.asList(wordCountJob, contributorCountJob);
+        jobs = Arrays.asList(new WordCountJob(), new ContributorCountJob(), new ArticleLengthJob());
     }
 
     @Override

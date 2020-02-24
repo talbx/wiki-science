@@ -6,7 +6,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
 import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
-import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountMapper;
 
 import java.io.IOException;
 import java.util.logging.Logger;
