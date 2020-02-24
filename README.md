@@ -7,7 +7,7 @@
  - ~1d time
 
 ### WIP: Full Dataset Requirements
- - several TB (5 TB, if less you need to stop some cronjobs for a while) of free working storage, resulting in ~ 1.3TB
+ - several TB (20 TB, if less you need to stop some cronjobs for a while) of free working storage, resulting in ~ 1-3TB
  - pre-proccessing server with a lot of power (~ 48 cores 64 GB RAM)
  - powerfull hadoop cluster
  - multiple days of time (downloading will take at least 3d 7h, extracting, pre-processing)
