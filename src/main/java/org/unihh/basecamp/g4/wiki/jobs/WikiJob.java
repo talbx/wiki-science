@@ -10,5 +10,9 @@ public interface WikiJob {
      */
     void start(String input, String Output);
 
+    /**
+     * returns the job name
+     * @return
+     */
     String getName();
 }

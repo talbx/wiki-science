@@ -17,13 +17,11 @@ import java.util.logging.Logger;
 public class JobFactory implements Function<String, WikiJob> {
 
     private final static Logger LOGGER = Logger.getLogger(JobFactory.class.getName());
-    private final WikiJob wordCountJob;
-    private final WikiJob contributorCountJob;
     private final List<WikiJob> jobs;
 
     public JobFactory() {
-        this.wordCountJob = new WordCountJob();
-        this.contributorCountJob = new ContributorCountJob();
+        final WikiJob wordCountJob = new WordCountJob();
+        final WikiJob contributorCountJob = new ContributorCountJob();
         jobs = Arrays.asList(wordCountJob, contributorCountJob);
     }
 
@@ -37,6 +35,6 @@ public class JobFactory implements Function<String, WikiJob> {
 
     public static void printOptions() {
         LOGGER.info("arg missmatch, choose one pattern from below:");
-        LOGGER.info("--word-count-job input output");
+        LOGGER.info("word-count input output");
     }
 }
