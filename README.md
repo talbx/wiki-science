@@ -93,6 +93,17 @@ pre-processing:
 uploading: 
 `cat enwiki-latest-pages-articles.ws.gz | ssh user@hadoop "hadoop fs -put - wiki-sience-standard-dataset/enwiki-latest-pages-articles.ws.gz" && mv enwiki-latest-pages-articles.ws.gz "enwiki-latest-pages-articles.ws.gz.hadoop"` 
 
+### Hadoop Dataset Usage
+
+Usage:
+ - hadoop jar jarfile [parameter] input output
+
+just choose `wiki-sience-full-dataset` or `wiki-sience-standard-dataset` as 'input'. Even though `wiki-sience-full-dataset` is directory containing multiple compressed `ws.gz` files and `wiki-sience-standard-dataset` is a directory with just one uncompress `ws` file, hadoop can use this as an input stream!
+
+Examples (replace c.jar by your jar and job parameter):
+- hadoop jar c.jar **wiki-sience-standard-dataset** contributors
+- hadoop jar c.jar **wiki-sience-full-dataset** contributors
+
 ## Development
 
 ### MOTD :: CURRENTLY RUNNING ON BASECPU1
