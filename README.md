@@ -88,7 +88,7 @@ extracting:
 
 pre-processing:
 
-`python /path/to/page-extractor.py enwiki-latest-pages-articles.xml enwiki-latest-pages-articles.ws`  (~ **6h**)
+`python /path/to/page-extractor-standard..py enwiki-latest-pages-articles.xml enwiki-latest-pages-articles.ws`  (~ **6h**)
 
 uploading: 
 `cat enwiki-latest-pages-articles.ws.gz | ssh user@hadoop "hadoop fs -put - wiki-sience-standard-dataset/enwiki-latest-pages-articles.ws.gz" && mv enwiki-latest-pages-articles.ws.gz "enwiki-latest-pages-articles.ws.gz.hadoop"` 
