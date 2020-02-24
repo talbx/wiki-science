@@ -1,6 +1,0 @@
-server:
-  port: 9091
-
-jobName: "word-count-job"
-jobInput: "xyz"
-jobOutput: "abc"

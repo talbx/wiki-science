@@ -8,9 +8,14 @@ import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ContributorCountJob implements WikiJob {
     private JobConf conf;
+    private String name = "contributor-count";
+
+    private final Logger LOGGER = Logger.getLogger(ContributorCountJob.class.getName());
 
     public ContributorCountJob() {
         conf = new JobConf(ContributorCountJob.class);
@@ -39,6 +44,6 @@ public class ContributorCountJob implements WikiJob {
 
     @Override
     public String getName() {
-        return "contributor-count";
+        return name;
     }
 }
