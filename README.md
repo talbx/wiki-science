@@ -93,6 +93,19 @@ pre-processing:
 uploading: 
 `cat enwiki-latest-pages-articles.ws.gz | ssh user@hadoop "hadoop fs -put - wiki-sience-standard-dataset/enwiki-latest-pages-articles.ws.gz" && mv enwiki-latest-pages-articles.ws.gz "enwiki-latest-pages-articles.ws.gz.hadoop"` 
 
+## pausing pre-processing & storage problems
+
+At the beginning we hoped that the pre-processing would run as fast as the download. Even if disk I/O, actual download speed, extraction & pre-processing are difficult to estimate, you should invest a little more time here.
+
+Depending on how many pre processing servers are available, you should split the download. If a lot of RAM is available, some tasks like gz packaging can be done completely in-memory. Bzip2 extracting could also be solved using streams, but these can only be paused in a complicated manner.
+
+If the "swap" storage becomes scarce, all pre processing tasks can be paused with killall -STOP python. If the tasks are paused, the cron jobs must be commented out. With kill -CONT [pid], a few processes can be started first, which then finish faster before the hard disk is full.
+
+The unpack process (bzip2 -d) can also be started manually for only part of the data if the cronjob should not unpack everything immediately after the download. so you can save several "Swap TB" if this part is subsequently processed and solved.
+
+Start 50 unpack jobs:
+`ls -la | grep '.bz2' | head -50 | awk '{print "bzip2 -d "$9 " &"}' | /bin/bash`
+
 ### Hadoop Dataset Usage
 
 Usage:
