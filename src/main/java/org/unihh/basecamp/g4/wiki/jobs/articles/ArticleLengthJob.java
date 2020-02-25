@@ -28,6 +28,7 @@ public class ArticleLengthJob implements WikiJob {
 
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
+        conf.set("mapreduce.output.textoutputformat.separator", ";");
     }
 
     public void start(String input, String output) {

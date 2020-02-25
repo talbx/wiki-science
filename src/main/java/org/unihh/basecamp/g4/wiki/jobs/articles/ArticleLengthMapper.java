@@ -13,6 +13,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class ArticleLengthMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     private Text word = new Text();
@@ -24,18 +25,21 @@ public class ArticleLengthMapper extends MapReduceBase implements Mapper<LongWri
     }
 
     private void processNode(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
-        NodeList nodeList = node.getChildNodes();
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node currentNode = nodeList.item(i);
-            if (currentNode.getNodeName().equals("ns0:text")) {
-                String textContent = currentNode.getTextContent();
-                String clean = textContent.replaceAll("[^.,a-zA-Z ]", " ");
-                word.set(clean);
-                output.collect(word, new IntWritable(clean.length()));
-            } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                processNode(currentNode, output);
-            }
-        }
+        Optional<Node> optionalNode = Optional.ofNullable(node);
+      if(optionalNode.isPresent()) {
+          NodeList nodeList = optionalNode.get().getChildNodes();
+          for (int i = 0; i < nodeList.getLength(); i++) {
+              Node currentNode = nodeList.item(i);
+              if (currentNode.getNodeName().equals("ns0:text")) {
+                  String textContent = currentNode.getTextContent();
+                  String clean = textContent.replaceAll("[^.,a-zA-Z ]", " ");
+                  word.set(clean);
+                  output.collect(word, new IntWritable(word.getLength()));
+              } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
+                  processNode(currentNode, output);
+              }
+          }
+      }
     }
 }
 
