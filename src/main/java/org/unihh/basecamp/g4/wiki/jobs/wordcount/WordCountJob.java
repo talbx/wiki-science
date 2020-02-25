@@ -14,7 +14,7 @@ public class WordCountJob implements WikiJob {
 
     public WordCountJob() {
         conf = new JobConf(WordCountJob.class);
-        conf.setJobName("WordCountJob");
+        conf.setJobName("word-count");
 
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(IntWritable.class);
@@ -39,6 +39,6 @@ public class WordCountJob implements WikiJob {
 
     @Override
     public String getName() {
-        return "word-count";
+        return conf.getJobName();
     }
 }

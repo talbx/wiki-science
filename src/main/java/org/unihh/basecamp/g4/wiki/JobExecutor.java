@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class JobExecutor implements Consumer<Arguments> {
+public class    JobExecutor implements Consumer<Arguments> {
 
     private final static Logger LOGGER = Logger.getLogger(JobExecutor.class.getName());
     private final JobFactory jobFactory;
@@ -29,9 +29,4 @@ public class JobExecutor implements Consumer<Arguments> {
         Optional<WikiJob> job = Optional.ofNullable(jobFactory.apply(args.getJob()));
         job.ifPresent(j -> runJob.accept(j, args));
     }
-
-    private void abc(Arguments args) {
-        LOGGER.log(Level.INFO, "No job found with name {0}", args.getJob());
-    }
-
 }
