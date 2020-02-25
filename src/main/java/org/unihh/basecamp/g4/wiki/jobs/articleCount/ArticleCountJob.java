@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.articles;
+package org.unihh.basecamp.g4.wiki.jobs.articleCount;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -6,18 +6,19 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
 import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
+import org.unihh.basecamp.g4.wiki.jobs.articleLength.ArticleLengthMapper;
 
 import java.io.IOException;
 import java.util.logging.Logger;
 
-public class ArticleLengthJob implements WikiJob {
+public class ArticleCountJob implements WikiJob {
     private JobConf conf;
 
-    private final Logger LOGGER = Logger.getLogger(ArticleLengthJob.class.getName());
+    private final Logger LOGGER = Logger.getLogger(ArticleCountJob.class.getName());
 
-    public ArticleLengthJob() {
-        conf = new JobConf(ArticleLengthJob.class);
-        conf.setJobName("article-length");
+    public ArticleCountJob() {
+        conf = new JobConf(ArticleCountJob.class);
+        conf.setJobName("article-count");
 
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(IntWritable.class);

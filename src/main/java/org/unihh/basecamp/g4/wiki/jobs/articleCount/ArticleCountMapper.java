@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.articles;
+package org.unihh.basecamp.g4.wiki.jobs.articleCount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -14,7 +14,7 @@ import org.w3c.dom.NodeList;
 import java.io.IOException;
 import java.util.Optional;
 
-public class ArticleLengthMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
+public class ArticleCountMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     private Text article = new Text();
 
     public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
@@ -29,13 +29,8 @@ public class ArticleLengthMapper extends MapReduceBase implements Mapper<LongWri
             NodeList nodeList = optionalNode.get().getChildNodes();
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node currentNode = nodeList.item(i);
-                if (currentNode.getNodeName().equals("ns0:text")) {
-                    String textContent = currentNode.getTextContent();
-                    String clean = textContent.replaceAll("[^.,a-zA-Z ]", " ");
-                    article.set(clean);
-                    output.collect(article, new IntWritable(article.getLength()));
-                } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                    processNode(currentNode, output);
+                if (currentNode.getNodeName().equals("ns0:page")) {
+                    output.collect(new Text("articles"), new IntWritable(1));
                 }
             }
         }
