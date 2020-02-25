@@ -1,27 +1,32 @@
-package org.unihh.basecamp.g4.wiki.jobs.contributors;
+package org.unihh.basecamp.g4.wiki.jobs.premiumContributors;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
 import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
+import org.unihh.basecamp.g4.wiki.jobs.TextReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
+import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountJob;
 
 import java.io.IOException;
+import java.util.logging.Logger;
 
-public class ContributorTypeJob implements WikiJob {
+public class PremiumContributorJob implements WikiJob {
     private JobConf conf;
 
-    public ContributorTypeJob() {
-        conf = new JobConf(ContributorTypeJob.class);
-        conf.setJobName("ContributorTypeJob");
+    private final Logger LOGGER = Logger.getLogger(ContributorCountJob.class.getName());
+
+    public PremiumContributorJob() {
+        conf = new JobConf(PremiumContributorJob.class);
+        conf.setJobName("premium-contributor");
 
         conf.setOutputKeyClass(Text.class);
-        conf.setOutputValueClass(IntWritable.class);
+        conf.setOutputValueClass(Text.class);
 
-        conf.setMapperClass(ContributorTypeMapper.class);
-        conf.setCombinerClass(StandardReducer.class);
-        conf.setReducerClass(StandardReducer.class);
+        conf.setMapperClass(PremiumContributorMapper.class);
+        conf.setCombinerClass(TextReducer.class);
+        conf.setReducerClass(TextReducer.class);
 
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
@@ -40,6 +45,6 @@ public class ContributorTypeJob implements WikiJob {
 
     @Override
     public String getName() {
-        return "contributor-type";
+        return conf.getJobName();
     }
 }

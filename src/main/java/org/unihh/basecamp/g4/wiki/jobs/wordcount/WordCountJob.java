@@ -4,6 +4,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
+import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
@@ -20,8 +21,8 @@ public class WordCountJob implements WikiJob {
         conf.setOutputValueClass(IntWritable.class);
 
         conf.setMapperClass(WordCountMapper.class);
-        conf.setCombinerClass(WordCountReducer.class);
-        conf.setReducerClass(WordCountReducer.class);
+        conf.setCombinerClass(StandardReducer.class);
+        conf.setReducerClass(StandardReducer.class);
 
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
