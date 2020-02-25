@@ -28,8 +28,8 @@ public class ArticleLengthMapper extends MapReduceBase implements Mapper<LongWri
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node currentNode = nodeList.item(i);
             if (currentNode.getNodeName().equals("ns0:text")) {
-                String substringBefore = StringUtils.substringBefore(currentNode.getTextContent(), "==References==");
-                String clean = substringBefore.replaceAll("[^.,a-zA-Z ]", " ");
+                String textContent = currentNode.getTextContent();
+                String clean = textContent.replaceAll("[^.,a-zA-Z ]", " ");
                 word.set(clean);
                 output.collect(word, new IntWritable(clean.length()));
             } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
