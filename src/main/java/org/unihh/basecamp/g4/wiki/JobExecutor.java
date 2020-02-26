@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class    JobExecutor implements Consumer<Arguments> {
+public class JobExecutor implements Consumer<Arguments> {
 
     private final static Logger LOGGER = Logger.getLogger(JobExecutor.class.getName());
     private final JobFactory jobFactory;

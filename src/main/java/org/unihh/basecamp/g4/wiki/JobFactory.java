@@ -3,6 +3,7 @@ package org.unihh.basecamp.g4.wiki;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 import org.unihh.basecamp.g4.wiki.jobs.articleCount.ArticleCountJob;
 import org.unihh.basecamp.g4.wiki.jobs.articleLength.ArticleLengthJob;
+import org.unihh.basecamp.g4.wiki.jobs.categories.CategoryJob;
 import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountJob;
 import org.unihh.basecamp.g4.wiki.jobs.mostEditedArticles.MostEditedArticlesJob;
 import org.unihh.basecamp.g4.wiki.jobs.premiumContributors.PremiumContributorJob;
@@ -14,6 +15,7 @@ import java.util.Objects;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 /**
  * returns the corresponding wikijob,
@@ -22,10 +24,10 @@ import java.util.logging.Logger;
 public class JobFactory implements Function<String, WikiJob> {
 
     private final static Logger LOGGER = Logger.getLogger(JobFactory.class.getName());
-    private final List<WikiJob> jobs;
+    private List<WikiJob> jobs;
 
     public JobFactory() {
-        jobs = Arrays.asList(new WordCountJob(), new ContributorCountJob(), new ArticleLengthJob(), new ArticleCountJob(), new PremiumContributorJob(), new MostEditedArticlesJob());
+        jobs = Arrays.asList(new WordCountJob(), new ContributorCountJob(), new ArticleLengthJob(), new ArticleCountJob(), new CategoryJob(), new PremiumContributorJob(), new MostEditedArticlesJob());
     }
 
     @Override
@@ -36,6 +38,8 @@ public class JobFactory implements Function<String, WikiJob> {
                 .orElseThrow(illegalArgumentException);
     }
 
-    public Supplier<IllegalArgumentException> illegalArgumentException = () ->
-            new IllegalArgumentException("job could not be found. please choose one of: word-count, contributor-count");
+    private Supplier<IllegalArgumentException> illegalArgumentException = () -> {
+        String collect = jobs.stream().map(WikiJob::getName).collect(Collectors.joining(", "));
+        return new IllegalArgumentException("job could not be found. please choose one of: " + collect);
+    };
 }

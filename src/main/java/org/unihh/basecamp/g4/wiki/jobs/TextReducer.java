@@ -1,6 +1,5 @@
 package org.unihh.basecamp.g4.wiki.jobs;
 
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.MapReduceBase;
 import org.apache.hadoop.mapred.OutputCollector;
