@@ -1,10 +1,11 @@
 package org.unihh.basecamp.g4.wiki.jobs.wordcount;
 
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.*;
-import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.unihh.basecamp.g4.wiki.ConfGenerator;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
@@ -14,18 +15,8 @@ public class WordCountJob implements WikiJob {
     private JobConf conf;
 
     public WordCountJob() {
-        conf = new JobConf(WordCountJob.class);
-        conf.setJobName("word-count");
-
-        conf.setOutputKeyClass(Text.class);
-        conf.setOutputValueClass(IntWritable.class);
-
-        conf.setMapperClass(WordCountMapper.class);
-        conf.setCombinerClass(StandardReducer.class);
-        conf.setReducerClass(StandardReducer.class);
-
-        conf.setInputFormat(TextInputFormat.class);
-        conf.setOutputFormat(TextOutputFormat.class);
+        ConfGenerator confGenerator = new ConfGenerator();
+        conf = confGenerator.generateTextIntConf("word-count", WordCountJob.class, WordCountMapper.class);
     }
 
     public void start(String input, String output) {

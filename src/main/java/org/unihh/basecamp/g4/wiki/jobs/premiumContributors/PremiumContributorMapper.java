@@ -12,6 +12,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class PremiumContributorMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, Text> {
     private Text word = new Text();
@@ -23,30 +24,36 @@ public class PremiumContributorMapper extends MapReduceBase implements Mapper<Lo
     }
 
     private void processNode(Node node, OutputCollector<Text, Text> output) throws IOException {
-        NodeList nodeList = node.getChildNodes();
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node currentNode = nodeList.item(i);
-            if (currentNode.getNodeName().equals("ns0:revision")) {
-                processRevision(currentNode, output);
-            } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                processNode(currentNode, output);
+        Optional<Node> optionalNode = Optional.ofNullable(node);
+        if (optionalNode.isPresent()) {
+            NodeList nodeList = optionalNode.get().getChildNodes();
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node currentNode = nodeList.item(i);
+                if (currentNode.getNodeName().equals("ns0:revision")) {
+                    processRevision(currentNode, output);
+                } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
+                    processNode(currentNode, output);
+                }
             }
         }
     }
 
     private void processRevision(Node node, OutputCollector<Text, Text> output) throws IOException {
         ImmutableContributor.Builder contributorBuilder = ImmutableContributor.builder();
-        NodeList nodeList = node.getChildNodes();
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node currentNode = nodeList.item(i);
-            if (currentNode.getNodeName().equals("ns0:timestamp")) {
-                contributorBuilder.timestamp(currentNode.getTextContent());
-            }
-            if (currentNode.getNodeName().equals("ns0:contributor")) {
-                for (int o = 0; o < currentNode.getChildNodes().getLength(); o++) {
-                    Node item = currentNode.getChildNodes().item(o);
-                    if (item.getNodeName().equals("ns0:username") || item.getNodeName().equals("ns0:ip")) {
-                       contributorBuilder.username(item.getTextContent());
+        Optional<Node> optionalNode = Optional.ofNullable(node);
+        if (optionalNode.isPresent()) {
+            NodeList nodeList = optionalNode.get().getChildNodes();
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node currentNode = nodeList.item(i);
+                if (currentNode.getNodeName().equals("ns0:timestamp")) {
+                    contributorBuilder.timestamp(currentNode.getTextContent());
+                }
+                if (currentNode.getNodeName().equals("ns0:contributor")) {
+                    for (int o = 0; o < currentNode.getChildNodes().getLength(); o++) {
+                        Node item = currentNode.getChildNodes().item(o);
+                        if (item.getNodeName().equals("ns0:username") || item.getNodeName().equals("ns0:ip")) {
+                            contributorBuilder.username(item.getTextContent());
+                        }
                     }
                 }
             }

@@ -1,9 +1,11 @@
 package org.unihh.basecamp.g4.wiki.jobs.premiumContributors;
 
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.*;
-import org.unihh.basecamp.g4.wiki.jobs.TextReducer;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.unihh.basecamp.g4.wiki.ConfGenerator;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
@@ -15,19 +17,8 @@ public class PremiumContributorJob implements WikiJob {
     private final Logger LOGGER = Logger.getLogger(PremiumContributorJob.class.getName());
 
     public PremiumContributorJob() {
-        conf = new JobConf(PremiumContributorJob.class);
-        conf.setJobName("premium-contributor");
-
-        conf.setOutputKeyClass(Text.class);
-        conf.setOutputValueClass(Text.class);
-
-        conf.setMapperClass(PremiumContributorMapper.class);
-        conf.setCombinerClass(TextReducer.class);
-        conf.setReducerClass(TextReducer.class);
-
-        conf.setInputFormat(TextInputFormat.class);
-        conf.setOutputFormat(TextOutputFormat.class);
-        conf.set("mapreduce.output.textoutputformat.separator", ";");
+        ConfGenerator confGenerator = new ConfGenerator();
+        conf = confGenerator.generateTextText("premium-contributor", PremiumContributorJob.class, PremiumContributorMapper.class);
     }
 
     public void start(String input, String output) {

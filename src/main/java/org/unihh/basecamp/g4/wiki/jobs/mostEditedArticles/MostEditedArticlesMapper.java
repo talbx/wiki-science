@@ -7,7 +7,6 @@ import org.apache.hadoop.mapred.MapReduceBase;
 import org.apache.hadoop.mapred.Mapper;
 import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reporter;
-import org.unihh.basecamp.g4.wiki.ImmutableContributor;
 import org.unihh.basecamp.g4.wiki.jobs.Article;
 import org.unihh.basecamp.g4.wiki.jobs.ImmutableArticle;
 import org.unihh.basecamp.g4.wiki.jobs.NodeBuilder;
@@ -16,9 +15,13 @@ import org.w3c.dom.NodeList;
 
 import java.io.IOException;
 import java.util.Optional;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MostEditedArticlesMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     private Text article = new Text();
+
+    Logger LOGGER = Logger.getLogger(MostEditedArticlesMapper.class.getName());
 
     public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
         NodeBuilder nodeBuilder = new NodeBuilder();
@@ -26,7 +29,7 @@ public class MostEditedArticlesMapper extends MapReduceBase implements Mapper<Lo
         processNode(node, output);
     }
 
-    private void processNode(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
+    public void processNode(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
         Optional<Node> optionalNode = Optional.ofNullable(node);
         if (optionalNode.isPresent()) {
             NodeList nodeList = optionalNode.get().getChildNodes();
@@ -41,7 +44,7 @@ public class MostEditedArticlesMapper extends MapReduceBase implements Mapper<Lo
         }
     }
 
-    private void processRevision(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
+    public void processRevision(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
         ImmutableArticle.Builder articleBuilder = ImmutableArticle.builder();
         NodeList nodeList = node.getChildNodes();
         int sum = 0;
@@ -51,12 +54,14 @@ public class MostEditedArticlesMapper extends MapReduceBase implements Mapper<Lo
                 articleBuilder.title(currentNode.getTextContent());
             }
             if (currentNode.getNodeName().equals("ns0:revision")) {
-                sum = sum +1;
+                sum = sum + 1;
             }
         }
         Article art = articleBuilder.build();
         String title = art.getTitle();
-        article.set(title != null ? title : "no-title");
+        String string = title != null ? title : "no-title";
+        article.set(string);
+        LOGGER.log(Level.INFO, "Collecting article: {} with {} revisions", new Object[]{string, sum});
         output.collect(article, new IntWritable(sum));
     }
 }

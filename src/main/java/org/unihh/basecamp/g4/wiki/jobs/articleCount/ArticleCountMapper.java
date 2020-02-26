@@ -15,8 +15,6 @@ import java.io.IOException;
 import java.util.Optional;
 
 public class ArticleCountMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
-    private Text article = new Text();
-
     public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
         NodeBuilder nodeBuilder = new NodeBuilder();
         Node node = nodeBuilder.apply(value);

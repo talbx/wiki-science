@@ -19,6 +19,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.io.StringReader;
+import java.util.Optional;
 
 public class ContributorCountMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     private final IntWritable one = new IntWritable(1);
@@ -31,14 +32,17 @@ public class ContributorCountMapper extends MapReduceBase implements Mapper<Long
     }
 
     private void processNode(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
-        NodeList nodeList = node.getChildNodes();
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node currentNode = nodeList.item(i);
-            if (currentNode.getNodeName().equals("ns0:ip") || currentNode.getNodeName().equals("ns0:username")) {
-                word.set(currentNode.getTextContent());
-                output.collect(word, one);
-            } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                processNode(currentNode, output);
+        Optional<Node> optionalNode = Optional.ofNullable(node);
+        if (optionalNode.isPresent()) {
+            NodeList nodeList = optionalNode.get().getChildNodes();
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node currentNode = nodeList.item(i);
+                if (currentNode.getNodeName().equals("ns0:ip") || currentNode.getNodeName().equals("ns0:username")) {
+                    word.set(currentNode.getTextContent());
+                    output.collect(word, one);
+                } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
+                    processNode(currentNode, output);
+                }
             }
         }
     }
