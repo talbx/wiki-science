@@ -29,6 +29,8 @@ public class MockRepository {
                 new ContributorEntity("Tom", 89),
                 new ContributorEntity("T.O", 50),
                 new ContributorEntity("Alex", 21),
+                new ContributorEntity("192.168.1.2", 21),
+                new ContributorEntity("54.135.2.5", 21),
                 new ContributorEntity("Thanos", 20));
     }
 
@@ -38,16 +40,16 @@ public class MockRepository {
 
     public List<ArticleEntity> getShortestArticles() {
         return Arrays.asList(
-                new ArticleEntity("ABC", 17234),
-                new ArticleEntity("Some Random Article", 1827312),
-                new ArticleEntity("Deutschland", 99383));
+                new ArticleEntity("ABC", 203),
+                new ArticleEntity("Some Random Article", 15),
+                new ArticleEntity("Deutschland", 6));
     }
 
     public List<ArticleEntity> getLongestArticles() {
         return Arrays.asList(
-                new ArticleEntity("Ni idea", 2),
-                new ArticleEntity("short", 9),
-                new ArticleEntity("Very short article wtf", 111));
+                new ArticleEntity("The History of Germany", 21231232),
+                new ArticleEntity("Kim Jong-Un", 9123334),
+                new ArticleEntity("Penis", 112221));
     }
 
     public List<ArticleEditsEntity> getMostEditedArticles() {
