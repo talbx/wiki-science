@@ -14,6 +14,8 @@ public class ConfGenerator {
 
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(IntWritable.class);
+        conf.setMemoryForMapTask(16000L);
+        conf.setMemoryForReduceTask(16000L);
 
         conf.setMapperClass(mapper);
         conf.setCombinerClass(StandardReducer.class);
