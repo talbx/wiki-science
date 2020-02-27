@@ -5,9 +5,8 @@ import lombok.Data;
 
 @Data
 @Builder
-public class CategoryEntity {
+public class ContributorEntity {
 
-    private String name;
-    private int amount;
-
+    String nameOrIp;
+    int contributions;
 }

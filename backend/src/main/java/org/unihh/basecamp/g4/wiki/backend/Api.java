@@ -20,7 +20,7 @@ public class Api {
     }
 
     @RequestMapping(path = "/cats", method = RequestMethod.GET)
-    public List<Category> getTopCategories() {
+    public List<CategoryEntity> getTopCategories() {
         return mockRepository.findTop50OrOrderByAmount();
     }
 }

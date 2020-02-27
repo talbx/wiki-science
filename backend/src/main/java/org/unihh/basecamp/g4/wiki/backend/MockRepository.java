@@ -8,15 +8,14 @@ import java.util.List;
 @Component
 public class MockRepository {
 
-    List<Category> findTop50OrOrderByAmount() {
+    List<CategoryEntity> findTop50OrOrderByAmount() {
 
         return Arrays.asList(
-                Category.of("Fussball", 121),
-                Category.of("Prominente in Deutschland", 89),
-                Category.of("Essen", 50),
-                Category.of("Kriege", 21),
-                Category.of("US-Präsidenten", 20),
-                Category.of("Zahnarzt", 1));
+                new CategoryEntity("Fussball", 121),
+                new CategoryEntity("Prominente in Deutschland", 89),
+                new CategoryEntity("Essen", 50),
+                new CategoryEntity("Kriege", 21),
+                new CategoryEntity("US-Präsidenten", 20),
+                new CategoryEntity("Zahnarzt", 1));
     }
-
 }
