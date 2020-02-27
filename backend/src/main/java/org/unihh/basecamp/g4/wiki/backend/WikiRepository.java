@@ -1,10 +1,8 @@
 package org.unihh.basecamp.g4.wiki.backend;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import java.util.List;
 
-public interface WikiRepository extends JpaRepository<Category, Integer> {
+public interface WikiRepository {
 
     List<CategoryEntity> findTop50OrOrderByAmount();
 }
