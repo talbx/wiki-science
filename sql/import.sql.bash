@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#$1 import_csv_file
+#$2 table
+echo "LOAD DATA INFILE '$1' INTO TABLE $2 COLUMNS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n'"
