@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/constants/constants.dart';
+import 'package:wikiScienceFrontend/data/constants.dart';
 
+// Diese Klasse gibt eine Übersicht über das Projekt
 class ProjectDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -11,10 +12,12 @@ class ProjectDetails extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'Unser Vorhaben', 
+            'Unser Vorhaben',
             style: TextStyle(fontWeight: FontWeight.w300, fontSize: 50),
           ),
-          SizedBox(height: 30,),
+          SizedBox(
+            height: 30,
+          ),
           Text(
             unser_vorhaben,
             style: TextStyle(fontSize: 21, height: 1.7),

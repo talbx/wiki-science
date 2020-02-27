@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'views/home/home_view.dart';
-// import 'package:wikiScience/landing_page.dart';
 
+// Diese Funktion ist der Startpunkt in die Anwendung.
 void main() => runApp(WikiScience());
 
+// Diese Klasse wird von der main-Funktion aufgerufen.
+// Sie stellt ein Grundgerüst für die Anwendung zur Verfügung,
+// zusammen mit dem Titel 'WikiScience'.
+// Diese Klasse zeigt die Klasse HomeView an, womit die eigentliche UI startet
 class WikiScience extends StatelessWidget {
-  // Diese Klasse ist der Startpunkt der Anwendung
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'WikiScience',
-      theme: ThemeData(
-        textTheme: Theme.of(context).textTheme.apply(
-          fontFamily: 'Open Sans'
-        )
-      ),
       home: HomeView(),
     );
   }
