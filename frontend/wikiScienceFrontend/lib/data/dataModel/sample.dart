@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
 class Sample {
-  final String year;
-  final int income;
+  final String domain;
+  final int measure;
   final charts.Color color;
 
-  Sample({@required this.year, @required this.income, this.color});
+  Sample({@required this.domain, @required this.measure, this.color});
 }

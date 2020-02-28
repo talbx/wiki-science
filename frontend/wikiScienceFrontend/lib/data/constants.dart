@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_0.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_1.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_2.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_9.dart';
 import 'package:wikiScienceFrontend/data/sampleData.dart';
 
 import 'answers/answer_3.dart';
@@ -32,15 +33,15 @@ final questions = const {
 
 // Hier sind die jeweiligen Resultate gespeichert.
 final answers = {
-  0: Answer0(data),
+  0: Answer9(),
   1: Answer1(groupedData),
   2: Answer2(groupedData),
   3: Answer3(groupedData),
   4: Answer4(groupedData),
   5: Answer1(groupedData),
-  6: Answer0(data),
+  6: Answer1(groupedData),
   7: Answer1(groupedData),
   8: Answer1(groupedData),
-  9: Answer0(data),
+  9: Answer1(groupedData),
   10: Answer1(groupedData),
 };
