@@ -14,6 +14,8 @@ import org.w3c.dom.NodeList;
 
 import java.io.IOException;
 import java.util.Optional;
+import java.util.function.BiConsumer;
+import java.util.function.Predicate;
 
 public class MostRedirectsMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
 
@@ -23,7 +25,7 @@ public class MostRedirectsMapper extends MapReduceBase implements Mapper<LongWri
         processNode(node, output);
     }
 
-    private void processNode(Node node, OutputCollector<Text, IntWritable> output) throws IOException {
+    private void processNode(Node node, OutputCollector<Text, IntWritable> output) {
         Optional<Node> optionalNode = Optional.ofNullable(node);
         if (optionalNode.isPresent()) {
             NodeList nodeList = optionalNode.get().getChildNodes();
@@ -32,11 +34,21 @@ public class MostRedirectsMapper extends MapReduceBase implements Mapper<LongWri
                 if (currentNode.getNodeName().equals("ns0:redirect")) {
                     Element element = (Element) currentNode;
                     String title = element.getAttribute("title");
-                    output.collect(new Text(title), new IntWritable(1));
+                    Optional.ofNullable(title).filter(isBlank).ifPresent(t -> collect.accept(t, output));
                 } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
                     processNode(currentNode, output);
                 }
             }
         }
     }
+
+    private BiConsumer<String, OutputCollector<Text, IntWritable>> collect = (t, o) -> {
+        try {
+            o.collect(new Text(t), new IntWritable(1));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    };
+
+    private Predicate<String> isBlank = s -> s.trim().isEmpty();
 }
