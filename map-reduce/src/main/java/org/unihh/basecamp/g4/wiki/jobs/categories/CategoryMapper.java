@@ -19,6 +19,7 @@ import java.util.regex.Pattern;
 public class CategoryMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
 
     public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
+      //  value = value.substring(value.findFirst("<tag>"), value.findLast("</tag>);
         NodeBuilder nodeBuilder = new NodeBuilder();
         Node node = nodeBuilder.apply(value);
         processNode(node, output);
