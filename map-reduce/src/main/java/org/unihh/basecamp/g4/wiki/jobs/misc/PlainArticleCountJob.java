@@ -1,26 +1,21 @@
-package org.unihh.basecamp.g4.wiki.jobs.articleCount;
+package org.unihh.basecamp.g4.wiki.jobs.misc;
 
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.*;
-import org.apache.kerby.config.Conf;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
 import org.unihh.basecamp.g4.wiki.ConfGenerator;
-import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
-import org.unihh.basecamp.g4.wiki.jobs.articleLength.ArticleLengthMapper;
 
 import java.io.IOException;
-import java.util.logging.Logger;
 
-public class ArticleCountJob implements WikiJob {
+public class PlainArticleCountJob implements WikiJob {
     private JobConf conf;
 
-    private final Logger LOGGER = Logger.getLogger(ArticleCountJob.class.getName());
-
-    public ArticleCountJob() {
+    public PlainArticleCountJob() {
         ConfGenerator generator = new ConfGenerator();
-        conf = generator.generateTextIntConf("article-count", ArticleCountJob.class, ArticleCountMapper.class);
+        conf = generator.generateTextIntConf("article-count-2", PlainArticleCountJob.class, PlainArticleCountMapper.class);
     }
 
     public void start(String input, String output) {

@@ -45,4 +45,5 @@ public class ConfGenerator {
         conf.set("mapreduce.output.textoutputformat.separator", ";");
         return conf;
     }
+
 }

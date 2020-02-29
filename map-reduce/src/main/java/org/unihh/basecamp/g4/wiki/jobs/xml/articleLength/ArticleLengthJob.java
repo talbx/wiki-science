@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.redirects;
+package org.unihh.basecamp.g4.wiki.jobs.xml.articleLength;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapred.FileInputFormat;
@@ -10,12 +10,12 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
-public class MostRedirectsJob implements WikiJob {
+public class ArticleLengthJob implements WikiJob {
     private JobConf conf;
 
-    public MostRedirectsJob() {
+    public ArticleLengthJob() {
         ConfGenerator confGenerator = new ConfGenerator();
-        conf = confGenerator.generateTextIntConf("most-redirects", MostRedirectsJob.class, MostRedirectsMapper.class);
+        conf = confGenerator.generateTextIntConf("article-length", ArticleLengthJob.class, ArticleLengthMapper.class);
     }
 
     public void start(String input, String output) {

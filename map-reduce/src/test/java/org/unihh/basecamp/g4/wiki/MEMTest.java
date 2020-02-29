@@ -3,8 +3,6 @@ package org.unihh.basecamp.g4.wiki;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.unihh.basecamp.g4.wiki.jobs.mostEditedArticles.MostEditedArticlesMapper;
-import org.w3c.dom.Node;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

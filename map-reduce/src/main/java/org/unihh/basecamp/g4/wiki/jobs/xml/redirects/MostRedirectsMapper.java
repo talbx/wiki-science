@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.redirects;
+package org.unihh.basecamp.g4.wiki.jobs.xml.redirects;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -19,7 +19,7 @@ import java.util.function.Predicate;
 
 public class MostRedirectsMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
 
-    public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
+    public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) {
         NodeBuilder nodeBuilder = new NodeBuilder();
         Node node = nodeBuilder.apply(value);
         processNode(node, output);

@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.premiumContributors;
+package org.unihh.basecamp.g4.wiki.jobs.xml.premiumContributors;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

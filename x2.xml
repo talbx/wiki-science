@@ -187,3 +187,1687 @@ xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/></xml>
 <ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
 <ns0:page xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
 </xml>
+<xml version="1.0" encoding="UTF-8">
+<ns0:page xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:title>File:Peter Gabriel (self-titled album, 1978 - cover art).jpg</ns0:title>
+    <ns0:ns>6</ns0:ns>
+    <ns0:id>5148205</ns0:id>
+    <ns0:revision>
+        <ns0:id>53251073</ns0:id>
+        <ns0:timestamp>2006-05-15T02:49:13Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Rwlesses</ns0:username>
+            <ns0:id>324926</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Peter Gabriel 2 Album Cover</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text
+                xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{albumcover}}</ns0:text>
+        <ns0:sha1>7q9tw7wh2lq2wo7jfy0c3dqoq0jakwm</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>124871495</ns0:id>
+        <ns0:parentid>53251073</ns0:parentid>
+        <ns0:timestamp>2007-04-22T14:55:49Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Cydebot</ns0:username>
+            <ns0:id>1215485</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Robot - Renaming non-free template "albumcover" per [[Wikipedia:Non-free content/templates]].
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+        <ns0:sha1>q27am786bol5uivigzunbnsm59lxclp</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>182271974</ns0:id>
+        <ns0:parentid>124871495</ns0:parentid>
+        <ns0:timestamp>2008-01-05T08:08:35Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Rockfang</ns0:username>
+            <ns0:id>5403270</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Image is missing fair use rationale and will be deleted in seven days if it is not added.
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+        <ns0:sha1>ntlat0yys3a14behlcknxu2r4cmib0l</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>182432500</ns0:id>
+        <ns0:parentid>182271974</ns0:parentid>
+        <ns0:timestamp>2008-01-06T01:34:48Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Rwlesses</ns0:username>
+            <ns0:id>324926</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>added FUR</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == {{Non-free album cover}} Album cover for ''[[Peter Gabriel (1978 album)|Peter Gabriel 2]]'', released by [[Peter Gabriel]] in [[1978]]. {{Non-free media rationale |Description = album cover |Source = personal scan |Article = Peter Gabriel (1978 album) |Portion = Album cover only |Resolution = 200x200 pixels |Purpose = To display the album's cover for its article's infobox. The article contains commentary. |Replaceability=Not replaceable; no free image identified with album will suffice. |other_information= }}</ns0:text>
+        <ns0:sha1>ajzxh2urdqnslbbbtmy1d9iln6g4t0j</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>182539638</ns0:id>
+        <ns0:parentid>182432500</ns0:parentid>
+        <ns0:timestamp>2008-01-06T15:41:37Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Rwlesses</ns0:username>
+            <ns0:id>324926</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>removed NFR; added FUR</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.</ns0:text>
+        <ns0:sha1>04jsxr5o1phz92es3myummheu25r55f</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>455750431</ns0:id>
+        <ns0:parentid>182539638</ns0:parentid>
+        <ns0:timestamp>2011-10-15T21:35:12Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Two Hearted River</ns0:username>
+            <ns0:id>5721362</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>added "Album covers by Hipgnosis" category</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.   [[Category:Album covers by Hipgnosis]]</ns0:text>
+        <ns0:sha1>2ee1iqs1l6r1lzr7g87ghq7knnxsqkm</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>529463779</ns0:id>
+        <ns0:parentid>455750431</ns0:parentid>
+        <ns0:timestamp>2012-12-23T17:02:48Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Sfan00 IMG</ns0:username>
+            <ns0:id>4906524</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>adding [[WP:FURG|FUR]] using [[Wikipedia:FurMe|FurMe]]</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+        <ns0:sha1>grzmpm2mjlq8uirw2xrzmdrnphxmoll</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>533718318</ns0:id>
+        <ns0:parentid>529463779</ns0:parentid>
+        <ns0:timestamp>2013-01-18T17:23:43Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Legobot</ns0:username>
+            <ns0:id>7304691</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Bot: Updating license tag(s) with image has rationale=yes (errors? [[User:Legobot/Stop/22|stop
+            me]])
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+        <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>555679796</ns0:id>
+        <ns0:parentid>533718318</ns0:parentid>
+        <ns0:timestamp>2013-05-18T18:22:56Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>BGC</ns0:username>
+            <ns0:id>369200</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>BGC uploaded a new version of &amp;quot;[[File:Pg2scratch.jpg]]&amp;quot;</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+        <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>570001374</ns0:id>
+        <ns0:parentid>555679796</ns0:parentid>
+        <ns0:timestamp>2013-08-24T14:55:27Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>DragonflySixtyseven</ns0:username>
+            <ns0:id>62058</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>DragonflySixtyseven moved page [[File:Pg2scratch.jpg]] to [[File:Peter Gabriel (self-titled album,
+            1978 - cover art).jpg]]
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+        <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>599153567</ns0:id>
+        <ns0:parentid>570001374</ns0:parentid>
+        <ns0:timestamp>2014-03-11T16:31:15Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Stefan2</ns0:username>
+            <ns0:id>808814</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>{{non-free reduce}}</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve"/>
+    </ns0:revision>
+</ns0:page>
+<ns0:title xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">File:Peter Gabriel (self-titled album, 1978 - cover
+    art).jpg
+</ns0:title>
+<ns0:title xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:ns xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">6</ns0:ns>
+<ns0:ns xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">5148205</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>53251073</ns0:id>
+    <ns0:timestamp>2006-05-15T02:49:13Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Rwlesses</ns0:username>
+        <ns0:id>324926</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Peter Gabriel 2 Album Cover</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{albumcover}}</ns0:text>
+    <ns0:sha1>7q9tw7wh2lq2wo7jfy0c3dqoq0jakwm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">53251073</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2006-05-15T02:49:13Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Rwlesses</ns0:username>
+    <ns0:id>324926</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Rwlesses</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">324926</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Peter Gabriel 2 Album Cover</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{albumcover}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">7q9tw7wh2lq2wo7jfy0c3dqoq0jakwm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>124871495</ns0:id>
+    <ns0:parentid>53251073</ns0:parentid>
+    <ns0:timestamp>2007-04-22T14:55:49Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Cydebot</ns0:username>
+        <ns0:id>1215485</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Robot - Renaming non-free template "albumcover" per [[Wikipedia:Non-free content/templates]].
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text
+            xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+    <ns0:sha1>q27am786bol5uivigzunbnsm59lxclp</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">124871495</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">53251073</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2007-04-22T14:55:49Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Cydebot</ns0:username>
+    <ns0:id>1215485</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Cydebot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1215485</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Robot - Renaming non-free template "albumcover" per
+    [[Wikipedia:Non-free content/templates]].
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">q27am786bol5uivigzunbnsm59lxclp</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>182271974</ns0:id>
+    <ns0:parentid>124871495</ns0:parentid>
+    <ns0:timestamp>2008-01-05T08:08:35Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Rockfang</ns0:username>
+        <ns0:id>5403270</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Image is missing fair use rationale and will be deleted in seven days if it is not added.</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+    <ns0:sha1>ntlat0yys3a14behlcknxu2r4cmib0l</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182271974</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">124871495</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-01-05T08:08:35Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Rockfang</ns0:username>
+    <ns0:id>5403270</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Rockfang</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">5403270</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Image is missing fair use rationale and will be
+    deleted in seven days if it is not added.
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == Peter Gabriel 2 Album Cover == Licensing == {{Non-free album cover}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">ntlat0yys3a14behlcknxu2r4cmib0l</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>182432500</ns0:id>
+    <ns0:parentid>182271974</ns0:parentid>
+    <ns0:timestamp>2008-01-06T01:34:48Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Rwlesses</ns0:username>
+        <ns0:id>324926</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>added FUR</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == {{Non-free album cover}} Album cover for ''[[Peter Gabriel (1978 album)|Peter Gabriel 2]]'', released by [[Peter Gabriel]] in [[1978]]. {{Non-free media rationale |Description = album cover |Source = personal scan |Article = Peter Gabriel (1978 album) |Portion = Album cover only |Resolution = 200x200 pixels |Purpose = To display the album's cover for its article's infobox. The article contains commentary. |Replaceability=Not replaceable; no free image identified with album will suffice. |other_information= }}</ns0:text>
+    <ns0:sha1>ajzxh2urdqnslbbbtmy1d9iln6g4t0j</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182432500</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182271974</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-01-06T01:34:48Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Rwlesses</ns0:username>
+    <ns0:id>324926</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Rwlesses</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">324926</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">added FUR</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{di-no fair use rationale|date=January 5 2008}} == Summary == {{Non-free album cover}} Album cover for ''[[Peter Gabriel (1978 album)|Peter Gabriel 2]]'', released by [[Peter Gabriel]] in [[1978]]. {{Non-free media rationale |Description = album cover |Source = personal scan |Article = Peter Gabriel (1978 album) |Portion = Album cover only |Resolution = 200x200 pixels |Purpose = To display the album's cover for its article's infobox. The article contains commentary. |Replaceability=Not replaceable; no free image identified with album will suffice. |other_information= }}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">ajzxh2urdqnslbbbtmy1d9iln6g4t0j</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>182539638</ns0:id>
+    <ns0:parentid>182432500</ns0:parentid>
+    <ns0:timestamp>2008-01-06T15:41:37Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Rwlesses</ns0:username>
+        <ns0:id>324926</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>removed NFR; added FUR</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.</ns0:text>
+    <ns0:sha1>04jsxr5o1phz92es3myummheu25r55f</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182539638</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182432500</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-01-06T15:41:37Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Rwlesses</ns0:username>
+    <ns0:id>324926</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Rwlesses</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">324926</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">removed NFR; added FUR</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">04jsxr5o1phz92es3myummheu25r55f</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>455750431</ns0:id>
+    <ns0:parentid>182539638</ns0:parentid>
+    <ns0:timestamp>2011-10-15T21:35:12Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Two Hearted River</ns0:username>
+        <ns0:id>5721362</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>added "Album covers by Hipgnosis" category</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.   [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>2ee1iqs1l6r1lzr7g87ghq7knnxsqkm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">455750431</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">182539638</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2011-10-15T21:35:12Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Two Hearted River</ns0:username>
+    <ns0:id>5721362</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Two Hearted River</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">5721362</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">added "Album covers by Hipgnosis" category
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Licensing == {{Non-free album cover}} This image is determined to be within fair use guidelines because:  # It is a low resolution copy of a single cover. # It does not limit the copyright owner's rights to sell the recorded work in any way. # It is being used for informational purposes only, not for profit. # It is used to identify and illustrate the article [[Peter Gabriel (1978 album)]], which is the specific recording related to the cover image.   [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2ee1iqs1l6r1lzr7g87ghq7knnxsqkm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>529463779</ns0:id>
+    <ns0:parentid>455750431</ns0:parentid>
+    <ns0:timestamp>2012-12-23T17:02:48Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Sfan00 IMG</ns0:username>
+        <ns0:id>4906524</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>adding [[WP:FURG|FUR]] using [[Wikipedia:FurMe|FurMe]]</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>grzmpm2mjlq8uirw2xrzmdrnphxmoll</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">529463779</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">455750431</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2012-12-23T17:02:48Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Sfan00 IMG</ns0:username>
+    <ns0:id>4906524</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Sfan00 IMG</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">4906524</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">adding [[WP:FURG|FUR]] using
+    [[Wikipedia:FurMe|FurMe]]
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">grzmpm2mjlq8uirw2xrzmdrnphxmoll</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>533718318</ns0:id>
+    <ns0:parentid>529463779</ns0:parentid>
+    <ns0:timestamp>2013-01-18T17:23:43Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Legobot</ns0:username>
+        <ns0:id>7304691</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Bot: Updating license tag(s) with image has rationale=yes (errors? [[User:Legobot/Stop/22|stop me]])
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">533718318</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">529463779</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2013-01-18T17:23:43Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Legobot</ns0:username>
+    <ns0:id>7304691</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Legobot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">7304691</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Bot: Updating license tag(s) with image has
+    rationale=yes (errors? [[User:Legobot/Stop/22|stop me]])
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>555679796</ns0:id>
+    <ns0:parentid>533718318</ns0:parentid>
+    <ns0:timestamp>2013-05-18T18:22:56Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>BGC</ns0:username>
+        <ns0:id>369200</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>BGC uploaded a new version of &amp;quot;[[File:Pg2scratch.jpg]]&amp;quot;</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">555679796</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">533718318</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2013-05-18T18:22:56Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>BGC</ns0:username>
+    <ns0:id>369200</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">BGC</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">369200</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">BGC uploaded a new version of &amp;quot;[[File:Pg2scratch.jpg]]&amp;quot;</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>570001374</ns0:id>
+    <ns0:parentid>555679796</ns0:parentid>
+    <ns0:timestamp>2013-08-24T14:55:27Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>DragonflySixtyseven</ns0:username>
+        <ns0:id>62058</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>DragonflySixtyseven moved page [[File:Pg2scratch.jpg]] to [[File:Peter Gabriel (self-titled album, 1978
+        - cover art).jpg]]
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">570001374</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">555679796</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2013-08-24T14:55:27Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>DragonflySixtyseven</ns0:username>
+    <ns0:id>62058</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">DragonflySixtyseven</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">62058</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">DragonflySixtyseven moved page
+    [[File:Pg2scratch.jpg]] to [[File:Peter Gabriel (self-titled album, 1978 - cover art).jpg]]
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>599153567</ns0:id>
+    <ns0:parentid>570001374</ns0:parentid>
+    <ns0:timestamp>2014-03-11T16:31:15Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Stefan2</ns0:username>
+        <ns0:id>808814</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>{{non-free reduce}}</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve"/>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599153567</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">570001374</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2014-03-11T16:31:15Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Stefan2</ns0:username>
+    <ns0:id>808814</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Stefan2</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">808814</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">{{non-free reduce}}</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">{{non-free reduce}} == Summary == {{Non-free use
+    rationale album cover | Article = Peter Gabriel (1978 album) | Use = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; |
+    Name = Peter Gabriel | Artist = [[Peter Gabriel]] | Label = [[Atlantic Records|Atlantic]] | Graphic Artist = | Item
+    = | Type = album | Website = | Owner = | Commentary = &lt;!--OVERRIDE FIELDS --&gt; | Description = | Source = |
+    Portion = | Low_resolution = | Purpose = &lt;!--Must be specified if Use is not Infobox / Header / Section /
+    Artist--&gt; | Replaceability = | other_information = }} == Licensing == {{Non-free album cover|image has
+    rationale=yes}} [[Category:Album covers by Hipgnosis]]
+</ns0:text>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">n6mco6ch4ppzy62qqzku43qw2cvi0xw</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:sha1/>
+</ns0:revision>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>599247394</ns0:id>
+    <ns0:parentid>599153567</ns0:parentid>
+    <ns0:timestamp>2014-03-12T06:05:43Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Theo's Little Bot</ns0:username>
+        <ns0:id>17911900</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Theo's Little Bot uploaded a new version of &amp;quot;[[File:Peter Gabriel (self-titled album, 1978 -
+        cover art).jpg]]&amp;quot;
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{non-free reduce}} == Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>n6mco6ch4ppzy62qqzku43qw2cvi0xw</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599247394</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599153567</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2014-03-12T06:05:43Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Theo's Little Bot</ns0:username>
+    <ns0:id>17911900</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Theo's Little Bot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">17911900</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Theo's Little Bot uploaded a new version of &amp;quot;[[File:Peter
+    Gabriel (self-titled album, 1978 - cover art).jpg]]&amp;quot;
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{non-free reduce}} == Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">n6mco6ch4ppzy62qqzku43qw2cvi0xw</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>599247401</ns0:id>
+    <ns0:parentid>599247394</ns0:parentid>
+    <ns0:timestamp>2014-03-12T06:05:45Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Theo's Little Bot</ns0:username>
+        <ns0:id>17911900</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Tagging with {{[[Template:Non-free reduced|Non-free reduced]]}} ([[WP:BOT|BOT]] - [[User:Theo's Little
+        Bot/disable/resizer|disable]])
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{non-free reduced|date=06:05, 12 March 2014 (UTC)}} == Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>hm6qlqmpxv8aa485kr8y1tj8l5jy1iz</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599247401</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599247394</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2014-03-12T06:05:45Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Theo's Little Bot</ns0:username>
+    <ns0:id>17911900</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Theo's Little Bot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">17911900</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Tagging with {{[[Template:Non-free reduced|Non-free
+    reduced]]}} ([[WP:BOT|BOT]] - [[User:Theo's Little Bot/disable/resizer|disable]])
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{non-free reduced|date=06:05, 12 March 2014 (UTC)}} == Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">hm6qlqmpxv8aa485kr8y1tj8l5jy1iz</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>600439555</ns0:id>
+    <ns0:parentid>599247401</ns0:parentid>
+    <ns0:timestamp>2014-03-20T12:01:28Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Closedmouth</ns0:username>
+        <ns0:id>372693</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Previous version(s) deleted per [[WP:CSD#F5|F5]])</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+    <ns0:sha1>4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">600439555</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">599247401</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2014-03-20T12:01:28Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Closedmouth</ns0:username>
+    <ns0:id>372693</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Closedmouth</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">372693</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Previous version(s) deleted per [[WP:CSD#F5|F5]])
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">== Summary == {{Non-free use rationale album cover  | Article           = Peter Gabriel (1978 album) | Use               = Infobox &lt;!-- ADDITIONAL INFORMATION --&gt; | Name              = Peter Gabriel | Artist            = [[Peter Gabriel]] | Label             = [[Atlantic Records|Atlantic]] | Graphic Artist    =  | Item              =  | Type              = album | Website           =  | Owner             =  | Commentary        =  &lt;!--OVERRIDE FIELDS --&gt; | Description       =  | Source            =  | Portion           =  | Low_resolution    =  | Purpose           = &lt;!--Must be specified if Use is not Infobox / Header / Section / Artist--&gt; | Replaceability    =  | other_information =  }}  == Licensing == {{Non-free album cover|image has rationale=yes}}  [[Category:Album covers by Hipgnosis]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">4ydf2pjue6i9lcxogrldlqy8h7u8xrm</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:page xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:revision/>
+    <ns0:revision/>
+    <ns0:revision/>
+</ns0:page>
+</xml>
+<xml version="1.0" encoding="UTF-8">
+<ns0:page xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:title>Talk:Joe Colquhoun</ns0:title>
+    <ns0:ns>1</ns0:ns>
+    <ns0:id>5148207</ns0:id>
+    <ns0:revision>
+        <ns0:id>53251098</ns0:id>
+        <ns0:timestamp>2006-05-15T02:49:26Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Emperor</ns0:username>
+            <ns0:id>8625</ns0:id>
+        </ns0:contributor>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{comicsproj}}  {{talkheader}}</ns0:text>
+        <ns0:sha1>m19zhhwutlrypx21tlk8amym6xkfg33</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>81920673</ns0:id>
+        <ns0:parentid>53251098</ns0:parentid>
+        <ns0:timestamp>2006-10-17T02:39:28Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>HelenKMarks</ns0:username>
+            <ns0:id>1481558</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Wikiproject Biography/Wikiproject Comics tags using [[WP:AWB|AWB]]</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text
+                xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{comicsproj}} {{talkheader}}</ns0:text>
+        <ns0:sha1>2e4dkkuy1pb9oqio9usjtghx2y6levs</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>85827387</ns0:id>
+        <ns0:parentid>81920673</ns0:parentid>
+        <ns0:timestamp>2006-11-05T10:31:17Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>BetacommandBot</ns0:username>
+            <ns0:id>1385729</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Tagging ([[User:Kingbotk/P|Plugin]]) class=Stub, auto=yes.</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}}</ns0:text>
+        <ns0:sha1>60c7u0gmly8j294yajp7u74k8fo1m9j</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>153987701</ns0:id>
+        <ns0:parentid>85827387</ns0:parentid>
+        <ns0:timestamp>2007-08-27T17:18:28Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>BetacommandBot</ns0:username>
+            <ns0:id>1385729</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>auto assessed</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+        <ns0:sha1>9c1h2ieuwnyahqr84wzg9no4apfm596</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>199184761</ns0:id>
+        <ns0:parentid>153987701</ns0:parentid>
+        <ns0:timestamp>2008-03-18T21:31:09Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Comics-awb</ns0:username>
+            <ns0:id>6316599</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Tag articles per [[User:Comics-awb/British categories]] as being in [[Wikipedia:WikiProject
+            Comics/British comics work group|British comics work group]], Replaced: {{Comicsproj &#8594;
+            {{comicsproj|British-
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+        <ns0:sha1>perijbkwgdld24xknstmahjxhugym1e</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>205202454</ns0:id>
+        <ns0:parentid>199184761</ns0:parentid>
+        <ns0:timestamp>2008-04-12T21:44:07Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Comics-awb</ns0:username>
+            <ns0:id>6316599</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Tag per [[User:Comics-awb/Comics creators categories]] as being in [[Wikipedia:WikiProject
+            Comics/Comics creators work group|Comics creators work group]], Replaced: {{comicsproj &#8594;
+            {{comicsproj|Creato
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+        <ns0:sha1>mpfmhg3fdrat66zq02zoh3a8if6trow</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>254246119</ns0:id>
+        <ns0:parentid>205202454</ns0:parentid>
+        <ns0:timestamp>2008-11-26T16:15:08Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Yobot</ns0:username>
+            <ns0:id>7328338</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Tagging([[User:Kingbotk/P|Plugin++]]) importance&#8594;priority. using
+            [[Project:AutoWikiBrowser|AWB]]
+        </ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+        <ns0:sha1>afbaad0o1pl90og7v4h0zpiwz7lw127</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>278667186</ns0:id>
+        <ns0:parentid>254246119</ns0:parentid>
+        <ns0:timestamp>2009-03-21T03:25:25Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Erik9bot</ns0:username>
+            <ns0:id>8889502</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>add "listas" parameter to [[Template:WPBiography]]</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes |listas=Colquhoun, Joe }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+        <ns0:sha1>cnlwde0791dt1mk3bsphzcxqingnfrs</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>279492264</ns0:id>
+        <ns0:parentid>278667186</ns0:parentid>
+        <ns0:timestamp>2009-03-25T01:24:28Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Emperor</ns0:username>
+            <ns0:id>8625</ns0:id>
+        </ns0:contributor>
+        <ns0:comment>Updating headers</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |priority=low |needs-photo=yes |needs-persondata=yes |a&amp;e-work-group=yes |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}</ns0:text>
+        <ns0:sha1>6a9prxwvl6faodqh7hcxqpriekuwk36</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>354295669</ns0:id>
+        <ns0:parentid>279492264</ns0:parentid>
+        <ns0:timestamp>2010-04-06T11:17:16Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>1ForTheMoney</ns0:username>
+            <ns0:id>5932223</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Persondata added</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of birth missing]] [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+        <ns0:sha1>f7dr4bbi1zaybf6vhn6b1lzz935cwhp</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>368745202</ns0:id>
+        <ns0:parentid>354295669</ns0:parentid>
+        <ns0:timestamp>2010-06-18T05:58:07Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Cydebot</ns0:username>
+            <ns0:id>1215485</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Robot: Moving Category Date of birth missing from talk page to article page.</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+        <ns0:sha1>20t17r1yln181lj1z9aq35xt29ert7w</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>369076919</ns0:id>
+        <ns0:parentid>368745202</ns0:parentid>
+        <ns0:timestamp>2010-06-19T22:31:05Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Cydebot</ns0:username>
+            <ns0:id>1215485</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment>Robot: Moving Category Date of death missing from talk page to article page.</ns0:comment>
+        <ns0:model>wikitext</ns0:model>
+        <ns0:format>text/x-wiki</ns0:format>
+        <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Place of death missing]]</ns0:text>
+        <ns0:sha1>gtynjnq1bsv4yd9rih32syrmoqq49oi</ns0:sha1>
+    </ns0:revision>
+    <ns0:revision>
+        <ns0:id>369090653</ns0:id>
+        <ns0:parentid>369076919</ns0:parentid>
+        <ns0:timestamp>2010-06-20T00:02:27Z</ns0:timestamp>
+        <ns0:contributor>
+            <ns0:username>Cydebot</ns0:username>
+            <ns0:id>1215485</ns0:id>
+        </ns0:contributor>
+        <ns0:minor/>
+        <ns0:comment/>
+    </ns0:revision>
+</ns0:page>
+<ns0:title xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Talk:Joe Colquhoun</ns0:title>
+<ns0:title xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:ns xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1</ns0:ns>
+<ns0:ns xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">5148207</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>53251098</ns0:id>
+    <ns0:timestamp>2006-05-15T02:49:26Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Emperor</ns0:username>
+        <ns0:id>8625</ns0:id>
+    </ns0:contributor>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{comicsproj}}  {{talkheader}}</ns0:text>
+    <ns0:sha1>m19zhhwutlrypx21tlk8amym6xkfg33</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">53251098</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2006-05-15T02:49:26Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Emperor</ns0:username>
+    <ns0:id>8625</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Emperor</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">8625</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"
+          xml:space="preserve">{{comicsproj}}  {{talkheader}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">m19zhhwutlrypx21tlk8amym6xkfg33</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>81920673</ns0:id>
+    <ns0:parentid>53251098</ns0:parentid>
+    <ns0:timestamp>2006-10-17T02:39:28Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>HelenKMarks</ns0:username>
+        <ns0:id>1481558</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Wikiproject Biography/Wikiproject Comics tags using [[WP:AWB|AWB]]</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{comicsproj}} {{talkheader}}</ns0:text>
+    <ns0:sha1>2e4dkkuy1pb9oqio9usjtghx2y6levs</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">81920673</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">53251098</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2006-10-17T02:39:28Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>HelenKMarks</ns0:username>
+    <ns0:id>1481558</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">HelenKMarks</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1481558</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Wikiproject Biography/Wikiproject Comics tags using
+    [[WP:AWB|AWB]]
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{comicsproj}} {{talkheader}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2e4dkkuy1pb9oqio9usjtghx2y6levs</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>85827387</ns0:id>
+    <ns0:parentid>81920673</ns0:parentid>
+    <ns0:timestamp>2006-11-05T10:31:17Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>BetacommandBot</ns0:username>
+        <ns0:id>1385729</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Tagging ([[User:Kingbotk/P|Plugin]]) class=Stub, auto=yes.</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}}</ns0:text>
+    <ns0:sha1>60c7u0gmly8j294yajp7u74k8fo1m9j</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">85827387</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">81920673</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2006-11-05T10:31:17Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>BetacommandBot</ns0:username>
+    <ns0:id>1385729</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">BetacommandBot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1385729</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Tagging ([[User:Kingbotk/P|Plugin]]) class=Stub,
+    auto=yes.
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography|living=no|class=|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">60c7u0gmly8j294yajp7u74k8fo1m9j</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>153987701</ns0:id>
+    <ns0:parentid>85827387</ns0:parentid>
+    <ns0:timestamp>2007-08-27T17:18:28Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>BetacommandBot</ns0:username>
+        <ns0:id>1385729</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>auto assessed</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+    <ns0:sha1>9c1h2ieuwnyahqr84wzg9no4apfm596</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">153987701</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">85827387</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2007-08-27T17:18:28Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>BetacommandBot</ns0:username>
+    <ns0:id>1385729</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">BetacommandBot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1385729</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">auto assessed</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{Comicsproj|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">9c1h2ieuwnyahqr84wzg9no4apfm596</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>199184761</ns0:id>
+    <ns0:parentid>153987701</ns0:parentid>
+    <ns0:timestamp>2008-03-18T21:31:09Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Comics-awb</ns0:username>
+        <ns0:id>6316599</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Tag articles per [[User:Comics-awb/British categories]] as being in [[Wikipedia:WikiProject
+        Comics/British comics work group|British comics work group]], Replaced: {{Comicsproj &#8594;
+        {{comicsproj|British-
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+    <ns0:sha1>perijbkwgdld24xknstmahjxhugym1e</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">199184761</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">153987701</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-03-18T21:31:09Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Comics-awb</ns0:username>
+    <ns0:id>6316599</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Comics-awb</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">6316599</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Tag articles per [[User:Comics-awb/British
+    categories]] as being in [[Wikipedia:WikiProject Comics/British comics work group|British comics work group]],
+    Replaced: {{Comicsproj &#8594; {{comicsproj|British-
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">perijbkwgdld24xknstmahjxhugym1e</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>205202454</ns0:id>
+    <ns0:parentid>199184761</ns0:parentid>
+    <ns0:timestamp>2008-04-12T21:44:07Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Comics-awb</ns0:username>
+        <ns0:id>6316599</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Tag per [[User:Comics-awb/Comics creators categories]] as being in [[Wikipedia:WikiProject
+        Comics/Comics creators work group|Comics creators work group]], Replaced: {{comicsproj &#8594;
+        {{comicsproj|Creato
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+    <ns0:sha1>mpfmhg3fdrat66zq02zoh3a8if6trow</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">205202454</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">199184761</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-04-12T21:44:07Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Comics-awb</ns0:username>
+    <ns0:id>6316599</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Comics-awb</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">6316599</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Tag per [[User:Comics-awb/Comics creators
+    categories]] as being in [[Wikipedia:WikiProject Comics/Comics creators work group|Comics creators work group]],
+    Replaced: {{comicsproj &#8594; {{comicsproj|Creato
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography|living=no|class= Stub|auto=yes|importance=}} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} {{talkheader}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">mpfmhg3fdrat66zq02zoh3a8if6trow</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>254246119</ns0:id>
+    <ns0:parentid>205202454</ns0:parentid>
+    <ns0:timestamp>2008-11-26T16:15:08Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Yobot</ns0:username>
+        <ns0:id>7328338</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Tagging([[User:Kingbotk/P|Plugin++]]) importance&#8594;priority. using
+        [[Project:AutoWikiBrowser|AWB]]
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+    <ns0:sha1>afbaad0o1pl90og7v4h0zpiwz7lw127</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">254246119</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">205202454</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2008-11-26T16:15:08Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Yobot</ns0:username>
+    <ns0:id>7328338</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Yobot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">7328338</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Tagging([[User:Kingbotk/P|Plugin++]]) importance&#8594;priority.
+    using [[Project:AutoWikiBrowser|AWB]]
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">afbaad0o1pl90og7v4h0zpiwz7lw127</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>278667186</ns0:id>
+    <ns0:parentid>254246119</ns0:parentid>
+    <ns0:timestamp>2009-03-21T03:25:25Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Erik9bot</ns0:username>
+        <ns0:id>8889502</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>add "listas" parameter to [[Template:WPBiography]]</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes |listas=Colquhoun, Joe }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+    <ns0:sha1>cnlwde0791dt1mk3bsphzcxqingnfrs</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">278667186</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">254246119</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2009-03-21T03:25:25Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Erik9bot</ns0:username>
+    <ns0:id>8889502</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Erik9bot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">8889502</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">add "listas" parameter to [[Template:WPBiography]]
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{talkheader}} {{WPBiography |living=no |class=Stub |priority= |auto=yes |listas=Colquhoun, Joe }} {{comicsproj|Creators-work-group=yes|British-work-group=yes|class=Stub|auto=yes}} == WikiProject class rating== This article was automatically  assessed because at least one article was rated and this bot brought all the other ratings up to at least that level. [[User:BetacommandBot|BetacommandBot]] 17:18, 27 August 2007 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">cnlwde0791dt1mk3bsphzcxqingnfrs</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>279492264</ns0:id>
+    <ns0:parentid>278667186</ns0:parentid>
+    <ns0:timestamp>2009-03-25T01:24:28Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Emperor</ns0:username>
+        <ns0:id>8625</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Updating headers</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |priority=low |needs-photo=yes |needs-persondata=yes |a&amp;e-work-group=yes |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}</ns0:text>
+    <ns0:sha1>6a9prxwvl6faodqh7hcxqpriekuwk36</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">279492264</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">278667186</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2009-03-25T01:24:28Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Emperor</ns0:username>
+    <ns0:id>8625</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Emperor</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">8625</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Updating headers</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |priority=low |needs-photo=yes |needs-persondata=yes |a&amp;e-work-group=yes |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">6a9prxwvl6faodqh7hcxqpriekuwk36</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>354295669</ns0:id>
+    <ns0:parentid>279492264</ns0:parentid>
+    <ns0:timestamp>2010-04-06T11:17:16Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>1ForTheMoney</ns0:username>
+        <ns0:id>5932223</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Persondata added</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of birth missing]] [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+    <ns0:sha1>f7dr4bbi1zaybf6vhn6b1lzz935cwhp</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">354295669</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">279492264</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2010-04-06T11:17:16Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>1ForTheMoney</ns0:username>
+    <ns0:id>5932223</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1ForTheMoney</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">5932223</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Persondata added</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of birth missing]] [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">f7dr4bbi1zaybf6vhn6b1lzz935cwhp</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>368745202</ns0:id>
+    <ns0:parentid>354295669</ns0:parentid>
+    <ns0:timestamp>2010-06-18T05:58:07Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Cydebot</ns0:username>
+        <ns0:id>1215485</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Robot: Moving Category Date of birth missing from talk page to article page.</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+    <ns0:sha1>20t17r1yln181lj1z9aq35xt29ert7w</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">368745202</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">354295669</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2010-06-18T05:58:07Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Cydebot</ns0:username>
+    <ns0:id>1215485</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Cydebot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1215485</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Robot: Moving Category Date of birth missing from
+    talk page to article page.
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Date of death missing]] [[Category:Place of death missing]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">20t17r1yln181lj1z9aq35xt29ert7w</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>369076919</ns0:id>
+    <ns0:parentid>368745202</ns0:parentid>
+    <ns0:timestamp>2010-06-19T22:31:05Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Cydebot</ns0:username>
+        <ns0:id>1215485</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment>Robot: Moving Category Date of death missing from talk page to article page.</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Place of death missing]]</ns0:text>
+    <ns0:sha1>gtynjnq1bsv4yd9rih32syrmoqq49oi</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">369076919</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">368745202</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2010-06-19T22:31:05Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Cydebot</ns0:username>
+    <ns0:id>1215485</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Cydebot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1215485</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Robot: Moving Category Date of death missing from
+    talk page to article page.
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  [[Category:Place of death missing]]</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">gtynjnq1bsv4yd9rih32syrmoqq49oi</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>369090653</ns0:id>
+    <ns0:parentid>369076919</ns0:parentid>
+    <ns0:timestamp>2010-06-20T00:02:27Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>Cydebot</ns0:username>
+        <ns0:id>1215485</ns0:id>
+    </ns0:contributor>
+    <ns0:minor/>
+    <ns0:comment/>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">369090653</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">369076919</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2010-06-20T00:02:27Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>Cydebot</ns0:username>
+    <ns0:id>1215485</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Cydebot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">1215485</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:minor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Robot: Moving Category Place of death missing from
+    talk page to article page.
+</ns0:comment>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">g90tj6v5ngnfain3hqwrwxu8ar3sh7v</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:model/>
+    <ns0:format/>
+    <ns0:text/>
+    <ns0:sha1/>
+</ns0:revision>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>812165793</ns0:id>
+    <ns0:parentid>369090653</ns0:parentid>
+    <ns0:timestamp>2017-11-26T10:21:47Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>InternetArchiveBot</ns0:username>
+        <ns0:id>27015025</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Notification of altered sources needing review #IABot (v1.6.1)</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)</ns0:text>
+    <ns0:sha1>blj9sho7xi66pdih4hgc1tc7vdbyo99</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">812165793</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">369090653</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2017-11-26T10:21:47Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>InternetArchiveBot</ns0:username>
+    <ns0:id>27015025</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">InternetArchiveBot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">27015025</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Notification of altered sources needing review #IABot
+    (v1.6.1)
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">blj9sho7xi66pdih4hgc1tc7vdbyo99</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>813045573</ns0:id>
+    <ns0:parentid>812165793</ns0:parentid>
+    <ns0:timestamp>2017-12-01T12:13:41Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>InternetArchiveBot</ns0:username>
+        <ns0:id>27015025</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>Notification of altered sources needing review #IABot (v1.6.1) ([[User:Balon Greyjoy|Balon Greyjoy]])
+    </ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)  == External links modified ==  Hello fellow Wikipedians,  I have just modified 2 external links on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/813045571|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20080517220950/http://charleyswar.tripod.com/id6.html to http://charleyswar.tripod.com/id6.html *Added archive https://web.archive.org/web/20041215232259/http://www.frothersunite.com/files/marbles/fanboy/battle.html to http://www.frothersunite.com/files/marbles/fanboy/battle.html  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 12:13, 1 December 2017 (UTC)</ns0:text>
+    <ns0:sha1>f8zmfwpuku26xgnyxfqj1fksi41hjn4</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">813045573</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">812165793</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2017-12-01T12:13:41Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>InternetArchiveBot</ns0:username>
+    <ns0:id>27015025</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">InternetArchiveBot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">27015025</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">Notification of altered sources needing review #IABot
+    (v1.6.1) ([[User:Balon Greyjoy|Balon Greyjoy]])
+</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)  == External links modified ==  Hello fellow Wikipedians,  I have just modified 2 external links on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/813045571|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20080517220950/http://charleyswar.tripod.com/id6.html to http://charleyswar.tripod.com/id6.html *Added archive https://web.archive.org/web/20041215232259/http://www.frothersunite.com/files/marbles/fanboy/battle.html to http://www.frothersunite.com/files/marbles/fanboy/battle.html  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 12:13, 1 December 2017 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">f8zmfwpuku26xgnyxfqj1fksi41hjn4</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:id>862789779</ns0:id>
+    <ns0:parentid>813045573</ns0:parentid>
+    <ns0:timestamp>2018-10-06T18:18:33Z</ns0:timestamp>
+    <ns0:contributor>
+        <ns0:username>ZackBot</ns0:username>
+        <ns0:id>29639097</ns0:id>
+    </ns0:contributor>
+    <ns0:comment>fixing deprecated params</ns0:comment>
+    <ns0:model>wikitext</ns0:model>
+    <ns0:format>text/x-wiki</ns0:format>
+    <ns0:text xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |needs-image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)  == External links modified ==  Hello fellow Wikipedians,  I have just modified 2 external links on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/813045571|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20080517220950/http://charleyswar.tripod.com/id6.html to http://charleyswar.tripod.com/id6.html *Added archive https://web.archive.org/web/20041215232259/http://www.frothersunite.com/files/marbles/fanboy/battle.html to http://www.frothersunite.com/files/marbles/fanboy/battle.html  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 12:13, 1 December 2017 (UTC)</ns0:text>
+    <ns0:sha1>bqi0foeg7vx9ho7yfvq1n6eeoujlgzt</ns0:sha1>
+</ns0:revision>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">862789779</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">813045573</ns0:parentid>
+<ns0:parentid xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">2018-10-06T18:18:33Z</ns0:timestamp>
+<ns0:timestamp xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:username>ZackBot</ns0:username>
+    <ns0:id>29639097</ns0:id>
+</ns0:contributor>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">ZackBot</ns0:username>
+<ns0:username xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">29639097</ns0:id>
+<ns0:id xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:contributor xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">fixing deprecated params</ns0:comment>
+<ns0:comment xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">wikitext</ns0:model>
+<ns0:model xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">text/x-wiki</ns0:format>
+<ns0:format xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/" xml:space="preserve">{{WPBiography |living=no |class=start |needs-photo=yes |a&amp;e-work-group=yes |a&amp;e-priority=low |listas=Colquhoun, Joe }} {{Comicsproj |class=start &lt;!-- B-Class checklist --&gt; &lt;!-- 1. It is suitably referenced, and all major points are appropriately cited. --&gt; |B-Class-1=no &lt;!-- 2. It reasonably covers the topic, and does not contain major omissions or inaccuracies. --&gt; |B-Class-2=no &lt;!-- 3. It has a defined structure, including a lead section and one or more sections of content. --&gt; |B-Class-3=yes &lt;!-- 4. It is free from major grammatical errors. --&gt; |B-Class-4=yes &lt;!-- 5. It contains appropriate supporting materials, such as an infobox, images, or diagrams. --&gt; |B-Class-5=no |importance=low |needs-image=yes |Creators-work-group=yes |British-work-group=yes }}  == External links modified ==  Hello fellow Wikipedians,  I have just modified one external link on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/812165791|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20101230061408/http://www.royoftherovers.com/behindthescenes/artists.aspx to http://www.royoftherovers.com/behindthescenes/artists.aspx  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 10:21, 26 November 2017 (UTC)  == External links modified ==  Hello fellow Wikipedians,  I have just modified 2 external links on [[Joe Colquhoun]]. Please take a moment to review [[special:diff/813045571|my edit]]. If you have any questions, or need the bot to ignore the links, or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this simple FaQ]] for additional information. I made the following changes: *Added archive https://web.archive.org/web/20080517220950/http://charleyswar.tripod.com/id6.html to http://charleyswar.tripod.com/id6.html *Added archive https://web.archive.org/web/20041215232259/http://www.frothersunite.com/files/marbles/fanboy/battle.html to http://www.frothersunite.com/files/marbles/fanboy/battle.html  When you have finished reviewing my changes, you may follow the instructions on the template below to fix any issues with the URLs.  {{sourcecheck|checked=false|needhelp=}}  Cheers.&#8212;[[User:InternetArchiveBot|'''&lt;span style="color:darkgrey;font-family:monospace"&gt;InternetArchiveBot&lt;/span&gt;''']] &lt;span style="color:green;font-family:Rockwell"&gt;([[User talk:InternetArchiveBot|Report bug]])&lt;/span&gt; 12:13, 1 December 2017 (UTC)</ns0:text>
+<ns0:text xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">bqi0foeg7vx9ho7yfvq1n6eeoujlgzt</ns0:sha1>
+<ns0:sha1 xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:revision xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/"/>
+<ns0:page xmlns:ns0="http://www.mediawiki.org/xml/export-0.10/">
+    <ns0:revision/>
+    <ns0:revision/>
+    <ns0:revision/>
+</ns0:page>
+</xml>

@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.contributors;
+package org.unihh.basecamp.g4.wiki.jobs.xml.articleCount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -14,10 +14,7 @@ import org.w3c.dom.NodeList;
 import java.io.IOException;
 import java.util.Optional;
 
-public class ContributorCountMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
-    private final IntWritable one = new IntWritable(1);
-    private Text word = new Text();
-
+public class ArticleCountMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
         NodeBuilder nodeBuilder = new NodeBuilder();
         Node node = nodeBuilder.apply(value);
@@ -30,11 +27,8 @@ public class ContributorCountMapper extends MapReduceBase implements Mapper<Long
             NodeList nodeList = optionalNode.get().getChildNodes();
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node currentNode = nodeList.item(i);
-                if (currentNode.getNodeName().equals("ns0:ip") || currentNode.getNodeName().equals("ns0:username")) {
-                    word.set(currentNode.getTextContent());
-                    output.collect(word, one);
-                } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                    processNode(currentNode, output);
+                if (currentNode.getNodeName().equals("ns0:page")) {
+                    output.collect(new Text("articles"), new IntWritable(1));
                 }
             }
         }

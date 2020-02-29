@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.categories;
+package org.unihh.basecamp.g4.wiki.jobs.xml.categories;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;

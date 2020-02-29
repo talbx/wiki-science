@@ -1,21 +1,21 @@
 package org.unihh.basecamp.g4.wiki;
 
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
-import org.unihh.basecamp.g4.wiki.jobs.articleCount.ArticleCountJob;
-import org.unihh.basecamp.g4.wiki.jobs.articleLength.ArticleLengthJob;
-import org.unihh.basecamp.g4.wiki.jobs.categories.CategoryJob;
-import org.unihh.basecamp.g4.wiki.jobs.contributors.ContributorCountJob;
-import org.unihh.basecamp.g4.wiki.jobs.mostEditedArticles.MostEditedArticlesJob;
-import org.unihh.basecamp.g4.wiki.jobs.premiumContributors.PremiumContributorJob;
-import org.unihh.basecamp.g4.wiki.jobs.redirects.MostRedirectsJob;
-import org.unihh.basecamp.g4.wiki.jobs.wordcount.WordCountJob;
+import org.unihh.basecamp.g4.wiki.jobs.misc.PlainArticleCountJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.articleCount.ArticleCountJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.articleLength.ArticleLengthJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.categories.CategoryJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.contributors.ContributorCountJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.mostEditedArticles.MostEditedArticlesJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.premiumContributors.PremiumContributorJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.redirects.MostRedirectsJob;
+import org.unihh.basecamp.g4.wiki.jobs.xml.wordcount.WordCountJob;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
@@ -35,6 +35,7 @@ public class JobFactory implements Function<String, WikiJob> {
                 new ArticleCountJob(),
                 new CategoryJob(),
                 new PremiumContributorJob(),
+                new PlainArticleCountJob(),
                 new MostEditedArticlesJob());
     }
 

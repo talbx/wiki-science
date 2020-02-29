@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.mostEditedArticles;
+package org.unihh.basecamp.g4.wiki.jobs.xml.mostEditedArticles;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;

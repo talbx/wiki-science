@@ -1,25 +1,21 @@
-package org.unihh.basecamp.g4.wiki.jobs.contributors;
+package org.unihh.basecamp.g4.wiki.jobs.xml.mostEditedArticles;
 
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.*;
 import org.unihh.basecamp.g4.wiki.ConfGenerator;
-import org.unihh.basecamp.g4.wiki.jobs.StandardReducer;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ContributorCountJob implements WikiJob {
+public class MostEditedArticlesJob implements WikiJob {
     private JobConf conf;
 
-    private final Logger LOGGER = Logger.getLogger(ContributorCountJob.class.getName());
+    private final Logger LOGGER = Logger.getLogger(MostEditedArticlesJob.class.getName());
 
-    public ContributorCountJob() {
+    public MostEditedArticlesJob() {
         ConfGenerator confGenerator = new ConfGenerator();
-        conf = confGenerator.generateTextIntConf("contributor-count", ContributorCountJob.class, ContributorCountMapper.class);
+        conf = confGenerator.generateTextIntConf("most-edited-articles", MostEditedArticlesJob.class, MostEditedArticlesMapper.class);
     }
 
     public void start(String input, String output) {
