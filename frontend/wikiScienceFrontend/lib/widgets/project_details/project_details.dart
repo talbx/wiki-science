@@ -13,14 +13,14 @@ class ProjectDetails extends StatelessWidget {
         children: <Widget>[
           Text(
             'Unser Vorhaben',
-            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 50),
+            style: TextStyle(fontWeight: FontWeight.w300, fontSize: 50, color: kMainColor),
           ),
           SizedBox(
             height: 30,
           ),
           Text(
             unser_vorhaben,
-            style: TextStyle(fontSize: 21, height: 1.7),
+            style: TextStyle(fontSize: 21, height: 1.7, color: kMainColor),
           ),
         ],
       ),

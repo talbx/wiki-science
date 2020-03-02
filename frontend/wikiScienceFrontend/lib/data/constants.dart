@@ -3,7 +3,10 @@ import 'package:wikiScienceFrontend/data/answers/answer_0.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_1.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_2.dart';
 import 'package:wikiScienceFrontend/data/answers/answer_9.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_gallerie.dart';
 import 'package:wikiScienceFrontend/data/sampleData.dart';
+import 'package:charts_flutter/flutter.dart' as charts;
+
 
 import 'answers/answer_3.dart';
 import 'answers/answer_4.dart';
@@ -16,10 +19,13 @@ import 'answers/answer_4.dart';
 const unser_vorhaben =
     'Die Online-Enzyklopädie Wikipedia ist aktuell auf Platz 5 der meist besuchten Webseiten und gilt mit über 6 Millionen Artikeln als die größte Wissenssammlung weltweit. Welche Schlüsse lassen sich ziehen, wenn man diese gewaltige Datenmenge mit modernster Analysesoftware genauer unter die Lupe nimmt? Im Rahmen des Projekts WikiScience stellten wir uns dieser Herausforderung und kam zu verblüffenden Ergebnissen.';
 
+final kMainColor = Colors.grey.shade900;
+final kMainColorCharts = charts.ColorUtil.fromDartColor(Colors.grey.shade700);
+
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
-  0: 'erste Frage',
-  1: 'zweite Frage',
+  0: 'dynamische Dateneinbindung',
+  1: 'Anzahl der Bearbeitungen pro Autor, zwischen 2002 und 2020',
   2: 'dritte Frage',
   3: 'vierte Frage',
   4: 'erste Frage',
@@ -34,7 +40,7 @@ final questions = const {
 // Hier sind die jeweiligen Resultate gespeichert.
 final answers = {
   0: Answer9(),
-  1: Answer1(groupedData),
+  1: AnswerGallerie(),
   2: Answer2(groupedData),
   3: Answer3(groupedData),
   4: Answer4(groupedData),

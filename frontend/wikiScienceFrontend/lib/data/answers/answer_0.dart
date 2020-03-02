@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:wikiScienceFrontend/data/constants.dart';
 import 'package:wikiScienceFrontend/data/dataModel/sample.dart';
 import 'package:wikiScienceFrontend/networking/networking.dart';
 
@@ -33,6 +34,7 @@ class _Answer0State extends State<Answer0> {
         data: data,
         domainFn: (Sample series, _) => series.domain,
         measureFn: (Sample series, _) => series.measure,
+        colorFn: (Sample series, _) => kMainColorCharts,
       )
     ];
 

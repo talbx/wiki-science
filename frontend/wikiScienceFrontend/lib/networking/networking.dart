@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
+import 'package:wikiScienceFrontend/data/constants.dart';
 import 'dart:convert';
 
 import 'package:wikiScienceFrontend/data/dataModel/sample.dart';
@@ -28,7 +29,7 @@ class NetworkHelper {
     print(3);
     for (var _data in rawData) {
       data.add(
-        Sample(domain: _data['title'], measure: _data['id']),
+        Sample(domain: _data['title'], measure: _data['id'], color: kMainColorCharts),
       );
     }
     return data;

@@ -15,22 +15,13 @@ class HomeView extends StatelessWidget {
       backgroundColor: Colors.white,
       body: CustomScrollView(
         slivers: <Widget>[
-          SliverAppBar(
-            expandedHeight: 500,
+          SliverPersistentHeader(
             floating: false,
             pinned: true,
-            snap: false,
-            title: Text('WikiScience.', style: TextStyle(fontSize: 50, fontWeight: FontWeight.w900, color: Colors.black),),
-            flexibleSpace: FlexibleSpaceBar(
-              background: Image.asset('web/assets/images/ws_front.png', fit: BoxFit.cover,),
-              // title: Text('WikiScience.',
-              //     style: TextStyle(
-              //         fontWeight: FontWeight.w900,
-              //         // fontSize: 80,
-              //         color: Colors.black)),
+            delegate: TitleBar(
+              minExtent: 100,
+              maxExtent: 500,
             ),
-            backgroundColor: Colors.white,
-            elevation: 0,
           ),
           SliverList(
             delegate: SliverChildListDelegate(
@@ -58,18 +49,17 @@ class HomeView extends StatelessWidget {
   }
 }
 
+
+
+
 // SliverAppBar(
 //             expandedHeight: 500,
 //             floating: false,
 //             pinned: true,
 //             snap: false,
-//             // title: Text('WikiScience.'),
+//             title: Text('WikiScience.', style: TextStyle(fontSize: 50, fontWeight: FontWeight.w100, color: Colors.black),),
 //             flexibleSpace: FlexibleSpaceBar(
-//               title: Text('WikiScience.',
-//                   style: TextStyle(
-//                       fontWeight: FontWeight.w900,
-//                       // fontSize: 80,
-//                       color: Colors.black)),
+//               background: Image.asset('web/assets/images/ws_front.png', fit: BoxFit.cover,),
 //             ),
 //             backgroundColor: Colors.white,
 //             elevation: 0,

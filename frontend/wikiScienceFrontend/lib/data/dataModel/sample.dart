@@ -6,5 +6,5 @@ class Sample {
   final int measure;
   final charts.Color color;
 
-  Sample({@required this.domain, @required this.measure, this.color});
+  Sample({@required this.domain, @required this.measure, @required this.color});
 }
