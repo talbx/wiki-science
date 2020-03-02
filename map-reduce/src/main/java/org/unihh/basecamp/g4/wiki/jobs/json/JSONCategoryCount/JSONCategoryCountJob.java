@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.misc;
+package org.unihh.basecamp.g4.wiki.jobs.json.JSONCategoryCount;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapred.FileInputFormat;
@@ -10,12 +10,13 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
-public class PlainArticleCountJob implements WikiJob {
+public class JSONCategoryCountJob implements WikiJob {
+
     private JobConf conf;
 
-    public PlainArticleCountJob() {
+    public JSONCategoryCountJob() {
         ConfGenerator generator = new ConfGenerator();
-        conf = generator.generateTextIntConf("article-count-plain", PlainArticleCountJob.class, PlainArticleCountMapper.class);
+        conf = generator.generateTextIntConf("category-count-json", JSONCategoryCountJob.class, JSONCategoryCountMapper.class);
     }
 
     public void start(String input, String output) {

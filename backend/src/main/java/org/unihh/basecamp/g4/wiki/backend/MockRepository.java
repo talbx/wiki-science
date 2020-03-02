@@ -1,12 +1,19 @@
 package org.unihh.basecamp.g4.wiki.backend;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.unihh.basecamp.g4.wiki.backend.api.GeoFetch;
+import org.unihh.basecamp.g4.wiki.backend.api.GeoLocation;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 @Component
 public class MockRepository {
+
+    @Autowired
+    GeoFetch geoFetch;
 
     public List<CategoryEntity> categoryCount() {
 
@@ -57,5 +64,9 @@ public class MockRepository {
                 new ArticleEditsEntity("Corona Virus", 51234),
                 new ArticleEditsEntity("Why Donald Trump sucks", 12929),
                 new ArticleEditsEntity("This is speculation", 92828));
+    }
+
+    public Map<String, GeoLocation> geolocations() {
+        return geoFetch.apply(Arrays.asList("107.15.106.192", "8.8.8.8"));
     }
 }

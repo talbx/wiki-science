@@ -1,6 +1,7 @@
 package org.unihh.basecamp.g4.wiki;
 
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
+import org.unihh.basecamp.g4.wiki.jobs.json.JSONArticleLength.JSONArticleLengthJob;
 import org.unihh.basecamp.g4.wiki.jobs.misc.PlainArticleCountJob;
 import org.unihh.basecamp.g4.wiki.jobs.xml.articleCount.ArticleCountJob;
 import org.unihh.basecamp.g4.wiki.jobs.xml.articleLength.ArticleLengthJob;
@@ -34,6 +35,7 @@ public class JobFactory implements Function<String, WikiJob> {
                 new ArticleLengthJob(),
                 new ArticleCountJob(),
                 new CategoryJob(),
+                new JSONArticleLengthJob(),
                 new PremiumContributorJob(),
                 new PlainArticleCountJob(),
                 new MostEditedArticlesJob());

@@ -8,6 +8,7 @@ import org.unihh.basecamp.g4.wiki.backend.ContributorEntity;
 import org.unihh.basecamp.g4.wiki.backend.MockRepository;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(path = "/api/contributors")
@@ -28,6 +29,11 @@ public class ContributorApi {
     @RequestMapping(path = "/contributorCount", method = RequestMethod.GET)
     public Long getContributorCount() {
         return mockRepository.contributorCount();
+    }
+
+    @RequestMapping(path = "/geolocation", method = RequestMethod.GET)
+    public Map<String, GeoLocation> getGeolocation() {
+        return mockRepository.geolocations();
     }
 
 }
