@@ -7,6 +7,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
+/**
+ * Takes a string and checks if it
+ * has the format of an IPV4 or IPV6
+ * address. This is needed to make sure
+ * that the geolocation api can succeed
+ */
 @Component
 public class IPFilter implements Predicate<String> {
 
@@ -23,7 +29,6 @@ public class IPFilter implements Predicate<String> {
         final Pattern pattern3 = Pattern.compile(IPV6_HEXCOMPRESSED_REGEX);
         final Pattern pattern4 = Pattern.compile(IPV6_6HEX4DEC_REGEX);
         final Pattern pattern5 = Pattern.compile(IPV6_HEX4DECCOMPRESSED_REGEX);
-
 
         final Matcher matcher1 = pattern1.matcher(ip);
         final Matcher matcher2 = pattern2.matcher(ip);

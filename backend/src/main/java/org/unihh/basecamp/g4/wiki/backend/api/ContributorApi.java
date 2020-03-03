@@ -11,6 +11,7 @@ import org.unihh.basecamp.g4.wiki.backend.functions.IPFilter;
 import org.unihh.basecamp.g4.wiki.backend.persistence.LatestContributorsRepository;
 
 import java.util.*;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 @RestController
@@ -39,11 +40,16 @@ public class ContributorApi {
     }
 
     public List<LatestContributorsEntity> top100Ips() {
-        return latestContributorsRepository.top100Ips().stream()
+        return ips(latestContributorsRepository::top100Ips);
+    }
+
+    private List<LatestContributorsEntity> ips(Supplier<List<LatestContributorsEntity>> function){
+        return function.get().stream()
                 .filter(Objects::nonNull)
                 .filter(x -> ipFilter.test(x.getUsername()))
                 .collect(Collectors.toList());
     }
+
 
     @RequestMapping(path = "/geolocation", method = RequestMethod.GET)
     public Map<String, GeoLocation> getGeolocation() {
@@ -55,10 +61,8 @@ public class ContributorApi {
         Map<String, GeoLocation> geolocation = getGeolocation();
         List<LatestContributorsEntity> top100Ips = top100Ips();
 
-        Set<Map.Entry<String, GeoLocation>> entries = geolocation.entrySet();
-
         Map<String, Integer> map = new HashMap<>();
-        for (Map.Entry<String, GeoLocation> entry : entries) {
+        for (Map.Entry<String, GeoLocation> entry : geolocation.entrySet()) {
             for (LatestContributorsEntity ip : top100Ips) {
                 if (ip.getUsername().equals(entry.getKey())) {
                     String country = entry.getValue().getName();
@@ -75,11 +79,9 @@ public class ContributorApi {
         Map<String, GeoLocation> geolocation = getGeolocation();
         List<LatestContributorsEntity> top100Ips = top100Ips();
 
-        Set<Map.Entry<String, GeoLocation>> entries = geolocation.entrySet();
-
         Map<String, Integer> map = new HashMap<>();
         for (LatestContributorsEntity ip : top100Ips) {
-            for (Map.Entry<String, GeoLocation> entry : entries) {
+            for (Map.Entry<String, GeoLocation> entry : geolocation.entrySet()) {
                 if (ip.getUsername().equals(entry.getKey())) {
                     String country = entry.getValue().getName();
                     map.put(country, map.getOrDefault(country, 0) + ip.getContributions());
