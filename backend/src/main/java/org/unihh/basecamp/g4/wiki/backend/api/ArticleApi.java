@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.unihh.basecamp.g4.wiki.backend.entity.ArticleEditsEntity;
+import org.unihh.basecamp.g4.wiki.backend.entity.ArticleEntity;
+import org.unihh.basecamp.g4.wiki.backend.entity.RedirectsEntity;
 import org.unihh.basecamp.g4.wiki.backend.persistence.*;
 
 import javax.transaction.Transactional;

@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.backend.api;
+package org.unihh.basecamp.g4.wiki.backend.functions;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

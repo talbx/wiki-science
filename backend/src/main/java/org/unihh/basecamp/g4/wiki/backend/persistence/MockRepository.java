@@ -2,8 +2,11 @@ package org.unihh.basecamp.g4.wiki.backend.persistence;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.unihh.basecamp.g4.wiki.backend.api.GeoFetch;
-import org.unihh.basecamp.g4.wiki.backend.api.GeoLocation;
+import org.unihh.basecamp.g4.wiki.backend.entity.ArticleEditsEntity;
+import org.unihh.basecamp.g4.wiki.backend.entity.ArticleEntity;
+import org.unihh.basecamp.g4.wiki.backend.entity.CategoryEntity;
+import org.unihh.basecamp.g4.wiki.backend.functions.FindLocationForIp;
+import org.unihh.basecamp.g4.wiki.backend.functions.GeoLocation;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +16,7 @@ import java.util.Map;
 public class MockRepository {
 
     @Autowired
-    GeoFetch geoFetch;
+    FindLocationForIp geoFetch;
 
     public List<CategoryEntity> categoryCount() {
 
@@ -28,17 +31,6 @@ public class MockRepository {
 
     public Long contributorCount() {
         return 222L;
-    }
-
-    public List<ContributorEntity> premiumContributors() {
-        return Arrays.asList(
-                new ContributorEntity("Ugur", 121),
-                new ContributorEntity("Tom", 89),
-                new ContributorEntity("T.O", 50),
-                new ContributorEntity("Alex", 21),
-                new ContributorEntity("192.168.1.2", 21),
-                new ContributorEntity("54.135.2.5", 21),
-                new ContributorEntity("Thanos", 20));
     }
 
     public Long getTotalArticleCount() {
@@ -64,9 +56,5 @@ public class MockRepository {
                 new ArticleEditsEntity("Corona Virus", 51234),
                 new ArticleEditsEntity("Why Donald Trump sucks", 12929),
                 new ArticleEditsEntity("This is speculation", 92828));
-    }
-
-    public Map<String, GeoLocation> geolocations() {
-        return geoFetch.apply(Arrays.asList("107.15.106.192", "8.8.8.8"));
     }
 }

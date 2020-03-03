@@ -52,7 +52,9 @@ public class PremiumContributorMapper extends MapReduceBase implements Mapper<Lo
                     for (int o = 0; o < currentNode.getChildNodes().getLength(); o++) {
                         Node item = currentNode.getChildNodes().item(o);
                         if (item.getNodeName().equals("ns0:username") || item.getNodeName().equals("ns0:ip")) {
-                             contributorBuilder.username(item.getTextContent());
+                            if(item.getTextContent() != null){
+                                contributorBuilder.username(item.getTextContent().toLowerCase());
+                            }
                         }
                     }
                 }
