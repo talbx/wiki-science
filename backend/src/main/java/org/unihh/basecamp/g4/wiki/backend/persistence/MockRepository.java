@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.backend;
+package org.unihh.basecamp.g4.wiki.backend.persistence;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

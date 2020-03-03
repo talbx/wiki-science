@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.unihh.basecamp.g4.wiki.backend.ContributorEntity;
-import org.unihh.basecamp.g4.wiki.backend.MockRepository;
+import org.unihh.basecamp.g4.wiki.backend.persistence.ContributorEntity;
+import org.unihh.basecamp.g4.wiki.backend.persistence.MockRepository;
 
 import java.util.List;
 import java.util.Map;

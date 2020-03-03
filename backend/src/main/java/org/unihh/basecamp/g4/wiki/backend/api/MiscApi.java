@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.unihh.basecamp.g4.wiki.backend.CategoryEntity;
-import org.unihh.basecamp.g4.wiki.backend.MockRepository;
+import org.unihh.basecamp.g4.wiki.backend.persistence.CategoryEntity;
+import org.unihh.basecamp.g4.wiki.backend.persistence.MockRepository;
 
 import java.util.List;
 

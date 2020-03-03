@@ -4,22 +4,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.unihh.basecamp.g4.wiki.backend.ArticleEditsEntity;
-import org.unihh.basecamp.g4.wiki.backend.ArticleEntity;
-import org.unihh.basecamp.g4.wiki.backend.ContributorEntity;
-import org.unihh.basecamp.g4.wiki.backend.MockRepository;
+import org.unihh.basecamp.g4.wiki.backend.persistence.*;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
+@Transactional
 @RequestMapping(path = "/api/articles")
 public class ArticleApi {
 
     private final MockRepository mockRepository;
 
+    private final RedirectsRepository redirectsRepository;
+
     @Autowired
-    public ArticleApi(final MockRepository mockRepository) {
+    public ArticleApi(final MockRepository mockRepository, final RedirectsRepository redirectsRepository) {
         this.mockRepository = mockRepository;
+        this.redirectsRepository = redirectsRepository;
     }
 
     @RequestMapping(path = "/longest", method = RequestMethod.GET)
@@ -40,5 +42,10 @@ public class ArticleApi {
     @RequestMapping(path = "/mostEdited", method = RequestMethod.GET)
     public List<ArticleEditsEntity> getMostEditedArticles() {
         return mockRepository.getMostEditedArticles();
+    }
+
+    @RequestMapping(path = "/redirects", method = RequestMethod.GET)
+    public RedirectsEntity getRedirects() {
+        return redirectsRepository.findAll().get(0);
     }
 }
