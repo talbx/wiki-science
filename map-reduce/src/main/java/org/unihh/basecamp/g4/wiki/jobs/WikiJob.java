@@ -1,5 +1,7 @@
 package org.unihh.basecamp.g4.wiki.jobs;
 
+import org.apache.hadoop.mapred.JobConf;
+
 /**
  * WikiJob Interface
  */
@@ -15,4 +17,5 @@ public interface WikiJob {
      * @return
      */
     String getName();
+
 }

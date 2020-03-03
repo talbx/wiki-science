@@ -10,6 +10,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
+/**
+ * Reads a list of json-formatted wiki articles
+ * and counts the length of text for each article
+ */
 public class JSONArticleLengthJob implements WikiJob {
 
     private JobConf conf;
