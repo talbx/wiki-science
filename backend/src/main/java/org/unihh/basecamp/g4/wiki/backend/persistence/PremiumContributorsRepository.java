@@ -20,6 +20,6 @@ public interface PremiumContributorsRepository extends JpaRepository<PremiumCont
     @Query(nativeQuery = true, value = "select * from PREMIUM_CONTRIBUTORS p WHERE p.Timestamp LIKE CONCAT(:year,'-',:month,'-',:day,'%')")
     List<PremiumContributorsEntity> findByYearMonthDay(@Param("year") String year, @Param("month") String month, @Param("day") String day);
 
-    @Query(nativeQuery = true, value = "select * from PREMIUM_CONTRIBUTORS p WHERE p.Timestamp LIKE CONCAT('%-%-%T',:time,'Z')")
+    @Query(nativeQuery = true, value = "select * from PREMIUM_CONTRIBUTORS p WHERE p.Timestamp LIKE CONCAT('%-%-%T',:time,':%:%Z')")
     List<PremiumContributorsEntity> findByTime(@Param("time") String time);
 }
