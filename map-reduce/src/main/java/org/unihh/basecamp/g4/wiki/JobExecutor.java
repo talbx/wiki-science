@@ -9,6 +9,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+/**
+ * Receives Program Arguments and
+ * starts the desired job with the attached
+ * input / output dirs.
+ */
 public class JobExecutor implements Consumer<Arguments> {
 
     private final static Logger LOGGER = Logger.getLogger(JobExecutor.class.getName());
