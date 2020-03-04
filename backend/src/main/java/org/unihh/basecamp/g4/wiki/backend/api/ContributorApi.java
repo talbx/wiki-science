@@ -1,10 +1,7 @@
 package org.unihh.basecamp.g4.wiki.backend.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.unihh.basecamp.g4.wiki.backend.entity.CountryCount;
 import org.unihh.basecamp.g4.wiki.backend.entity.LatestContributorsEntity;
 import org.unihh.basecamp.g4.wiki.backend.entity.PremiumContributorsEntity;
@@ -18,6 +15,7 @@ import java.util.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
+@CrossOrigin(origins = "http://localhost:50361")
 @RestController
 @RequestMapping(path = "/api/contributors")
 public class ContributorApi {
@@ -93,10 +91,11 @@ public class ContributorApi {
     }
 
     @RequestMapping(path = "/contributorsPerCountry", method = RequestMethod.GET)
-    public Map<String, Integer> contributorsPerCountry() {
+    public List<CountryCount> contributorsPerCountry() {
         Map<String, GeoLocation> geolocation = getGeolocation();
         List<LatestContributorsEntity> top100Ips = top100Ips();
 
+        List<CountryCount> countryCounts = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
         for (Map.Entry<String, GeoLocation> entry : geolocation.entrySet()) {
             for (LatestContributorsEntity ip : top100Ips) {
@@ -106,7 +105,13 @@ public class ContributorApi {
                 }
             }
         }
-        return map;
+
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+
+        return countryCounts;
     }
 
 
