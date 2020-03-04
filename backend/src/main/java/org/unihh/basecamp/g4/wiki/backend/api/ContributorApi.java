@@ -5,10 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.unihh.basecamp.g4.wiki.backend.entity.LatestContributorsEntity;
+import org.unihh.basecamp.g4.wiki.backend.entity.PremiumContributorsEntity;
 import org.unihh.basecamp.g4.wiki.backend.functions.FindLocationForIp;
 import org.unihh.basecamp.g4.wiki.backend.functions.GeoLocation;
 import org.unihh.basecamp.g4.wiki.backend.functions.IPFilter;
 import org.unihh.basecamp.g4.wiki.backend.persistence.LatestContributorsRepository;
+import org.unihh.basecamp.g4.wiki.backend.persistence.PremiumContributorsRepository;
 
 import java.util.*;
 import java.util.function.Supplier;
@@ -19,12 +21,14 @@ import java.util.stream.Collectors;
 public class ContributorApi {
 
     private final LatestContributorsRepository latestContributorsRepository;
+    private final PremiumContributorsRepository premiumContributorsRepository;
     private final FindLocationForIp locationFinder;
     private final IPFilter ipFilter;
 
     @Autowired
-    public ContributorApi(final LatestContributorsRepository latestContributorsRepository, final FindLocationForIp locationFinder, final IPFilter ipFilter) {
+    public ContributorApi(final LatestContributorsRepository latestContributorsRepository, final PremiumContributorsRepository premiumContributorsRepository, final FindLocationForIp locationFinder, final IPFilter ipFilter) {
         this.latestContributorsRepository = latestContributorsRepository;
+        this.premiumContributorsRepository = premiumContributorsRepository;
         this.locationFinder = locationFinder;
         this.ipFilter = ipFilter;
     }
@@ -37,6 +41,11 @@ public class ContributorApi {
     @RequestMapping(path = "/top100", method = RequestMethod.GET)
     public List<LatestContributorsEntity> top100LatestContributors() {
         return latestContributorsRepository.findTop100ByOrderByContributionsDesc();
+    }
+
+    @RequestMapping(path = "/2019ers", method = RequestMethod.GET)
+    public List<PremiumContributorsEntity> find2019ers() {
+        return premiumContributorsRepository.findByYear("2019");
     }
 
     public List<LatestContributorsEntity> top100Ips() {
