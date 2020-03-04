@@ -1,6 +1,7 @@
 package org.unihh.basecamp.g4.wiki.backend.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +10,7 @@ import org.unihh.basecamp.g4.wiki.backend.persistence.RedirectsRepository;
 
 import javax.transaction.Transactional;
 
+@CrossOrigin(origins = "http://localhost:50361")
 @RestController
 @Transactional
 @RequestMapping(path = "/api/articles")
