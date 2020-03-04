@@ -31,8 +31,10 @@ public class ContributorCountMapper extends MapReduceBase implements Mapper<Long
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node currentNode = nodeList.item(i);
                 if (currentNode.getNodeName().equals("ns0:ip") || currentNode.getNodeName().equals("ns0:username")) {
-                    word.set(currentNode.getTextContent());
+                    if(currentNode.getTextContent() != null){
+                    word.set(currentNode.getTextContent().toLowerCase());
                     output.collect(word, one);
+                    }
                 } else if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
                     processNode(currentNode, output);
                 }

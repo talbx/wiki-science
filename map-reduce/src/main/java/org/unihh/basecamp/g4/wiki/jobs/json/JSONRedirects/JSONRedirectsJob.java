@@ -1,4 +1,4 @@
-package org.unihh.basecamp.g4.wiki.jobs.misc;
+package org.unihh.basecamp.g4.wiki.jobs.json.JSONRedirects;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapred.FileInputFormat;
@@ -10,12 +10,13 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
-public class PlainArticleCountJob implements WikiJob {
+public class JSONRedirectsJob implements WikiJob {
+
     private JobConf conf;
 
-    public PlainArticleCountJob() {
+    public JSONRedirectsJob() {
         ConfGenerator generator = new ConfGenerator();
-        conf = generator.generateTextIntConf("article-count-plain", PlainArticleCountJob.class, PlainArticleCountMapper.class);
+        conf = generator.generateTextIntConf("redirects-json", JSONRedirectsJob.class, JSONRedirectsMapper.class);
     }
 
     public void start(String input, String output) {

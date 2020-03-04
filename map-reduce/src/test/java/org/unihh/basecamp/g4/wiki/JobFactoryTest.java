@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
+import org.unihh.basecamp.g4.wiki.jobs.json.JSONRealArticleCount.JSONRealArticleCountJob;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
@@ -18,6 +19,9 @@ public class JobFactoryTest {
         WikiJob wikiJob = factory.apply(sample);
         Assertions.assertThat(wikiJob).isNotNull();
         Assertions.assertThat(wikiJob.getName()).isEqualTo(sample);
+
+        WikiJob job = new JSONRealArticleCountJob();
+        job.getName();
     }
 
     @Test
