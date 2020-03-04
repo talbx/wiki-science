@@ -13,7 +13,7 @@ import 'answers/answer_4.dart';
 final kMainColor = Colors.grey.shade900;
 final kMainColorCharts = charts.ColorUtil.fromDartColor(Colors.grey.shade700);
 
-const url = 'http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.0.RELEASE/';
+const url = 'http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.0.RELEASE';
 
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
