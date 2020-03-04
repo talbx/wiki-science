@@ -1,6 +1,7 @@
 package org.unihh.basecamp.g4.wiki.backend.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -46,6 +47,26 @@ public class ContributorApi {
     @RequestMapping(path = "/2019ers", method = RequestMethod.GET)
     public List<PremiumContributorsEntity> find2019ers() {
         return premiumContributorsRepository.findByYear("2019");
+    }
+
+    @RequestMapping(path = "/findByMoment/{year}", method = RequestMethod.GET)
+    public List<PremiumContributorsEntity> findByMoment(@PathVariable("year") String year){
+        return premiumContributorsRepository.findByYear(year);
+    }
+
+    @RequestMapping(path = "/findByMoment/{year}/{month}", method = RequestMethod.GET)
+    public List<PremiumContributorsEntity> findByMoment(@PathVariable("year") String year, @PathVariable("month") String month){
+        return premiumContributorsRepository.findByYearMonth(year, month);
+    }
+
+    @RequestMapping(path = "/findByMoment/{year}/{month}/{day}", method = RequestMethod.GET)
+    public List<PremiumContributorsEntity> findByMoment(@PathVariable("year") String year, @PathVariable("month") String month, @PathVariable("day") String day){
+        return premiumContributorsRepository.findByYearMonthDay(year, month, day);
+    }
+
+    @RequestMapping(path = "/findByTime/{time}", method = RequestMethod.GET)
+    public List<PremiumContributorsEntity> findByTime(@PathVariable("time") String time){
+        return premiumContributorsRepository.findByTime(time);
     }
 
     public List<LatestContributorsEntity> top100Ips() {
