@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "http://localhost:50361")
+@CrossOrigin(origins = {"http://localhost:50361", "https://uguri.github.io/wikiScience/"})
 @RestController
 @RequestMapping(path = "/api/contributors")
 public class ContributorApi {

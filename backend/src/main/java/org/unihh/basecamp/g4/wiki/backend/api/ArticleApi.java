@@ -10,7 +10,7 @@ import org.unihh.basecamp.g4.wiki.backend.persistence.RedirectsRepository;
 
 import javax.transaction.Transactional;
 
-@CrossOrigin(origins = "http://localhost:50361")
+@CrossOrigin(origins = {"http://localhost:50361", "https://uguri.github.io/wikiScience/"})
 @RestController
 @Transactional
 @RequestMapping(path = "/api/articles")
