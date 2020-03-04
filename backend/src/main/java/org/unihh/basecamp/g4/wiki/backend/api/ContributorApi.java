@@ -77,6 +77,10 @@ public class ContributorApi {
         return ips(latestContributorsRepository::top100Ips);
     }
 
+    public List<LatestContributorsEntity> top10000Ips() {
+        return ips(latestContributorsRepository::top10000Ips);
+    }
+
     private List<LatestContributorsEntity> ips(Supplier<List<LatestContributorsEntity>> function){
         return function.get().stream()
                 .filter(Objects::nonNull)
@@ -85,9 +89,14 @@ public class ContributorApi {
     }
 
 
-    @RequestMapping(path = "/geolocation", method = RequestMethod.GET)
+    @RequestMapping(path = "/geolocation1", method = RequestMethod.GET)
     public Map<String, GeoLocation> getGeolocation() {
         return locationFinder.apply(top100Ips());
+    }
+
+    @RequestMapping(path = "/geolocation3", method = RequestMethod.GET)
+    public Map<String, GeoLocation> getGeolocation3() {
+        return locationFinder.apply(top10000Ips());
     }
 
     @RequestMapping(path = "/contributorsPerCountry", method = RequestMethod.GET)
@@ -114,11 +123,57 @@ public class ContributorApi {
         return countryCounts;
     }
 
+    @RequestMapping(path = "/contributorsPerCountry10K", method = RequestMethod.GET)
+    public List<CountryCount> contributorsPerCountry10K() {
+        Map<String, GeoLocation> geolocation = getGeolocation3();
+        List<LatestContributorsEntity> top100Ips = top10000Ips();
+
+        List<CountryCount> countryCounts = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (Map.Entry<String, GeoLocation> entry : geolocation.entrySet()) {
+            for (LatestContributorsEntity ip : top100Ips) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + 1);
+                }
+            }
+        }
+
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+
+        return countryCounts;
+    }
+
 
     @RequestMapping(path = "/contributionsPerCountry", method = RequestMethod.GET)
     public List<CountryCount> contributionsPerCountry() {
         Map<String, GeoLocation> geolocation = getGeolocation();
         List<LatestContributorsEntity> top100Ips = top100Ips();
+
+        List<CountryCount> countryCounts = new ArrayList<>() ;
+        Map<String, Integer> map = new HashMap<>();
+        for (LatestContributorsEntity ip : top100Ips) {
+            for (Map.Entry<String, GeoLocation> entry : geolocation.entrySet()) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + ip.getContributions());
+                }
+            }
+        }
+        map.entrySet().forEach(e -> {
+            CountryCount countryCount = CountryCount.builder().country(e.getKey()).count(e.getValue()).build();
+            countryCounts.add(countryCount);
+        });
+        return countryCounts;
+    }
+
+    @RequestMapping(path = "/contributionsPerCountry10K", method = RequestMethod.GET)
+    public List<CountryCount> contributionsPerCountry10K() {
+        Map<String, GeoLocation> geolocation = getGeolocation3();
+        List<LatestContributorsEntity> top100Ips = top10000Ips();
 
         List<CountryCount> countryCounts = new ArrayList<>() ;
         Map<String, Integer> map = new HashMap<>();

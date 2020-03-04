@@ -3,6 +3,7 @@ package org.unihh.basecamp.g4.wiki.backend.functions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpServerErrorException;
 import org.unihh.basecamp.g4.wiki.backend.entity.LatestContributorsEntity;
 
 import java.net.URI;
@@ -34,8 +35,8 @@ public class FindLocationForIp implements Function<List<LatestContributorsEntity
                 GeoLocation geoLocation = templateBuilder.build()
                         .getForObject(new URI("https://api.ipgeolocationapi.com/geolocate/" + e.getUsername()), GeoLocation.class);
                 obj.put(e.getUsername(), geoLocation);
-            } catch (URISyntaxException ex) {
-                ex.printStackTrace();
+            } catch (URISyntaxException | HttpServerErrorException ex) {
+                LOGGER.log(Level.WARNING, "no location found for " + e, ex);
             }
         }
         return obj;
