@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.unihh.basecamp.g4.wiki</groupId>
-    <artifactId>backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>backend</name>
+    <artifactId>wiki-scicence-backend</artifactId>
+    <version>1.0.0.RELEASE</version>
+    <name>wiki-science-backend</name>
     <packaging>war</packaging>
 
     <properties>
