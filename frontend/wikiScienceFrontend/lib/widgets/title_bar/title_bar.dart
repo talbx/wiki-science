@@ -1,8 +1,9 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/rendering/sliver_persistent_header.dart';
 import 'package:wikiScienceFrontend/data/constants.dart';
+import 'dart:math';
 
+// TitleBar Klasse gibt die Titelleiste zurück
 class TitleBar implements SliverPersistentHeaderDelegate {
   final double minExtent;
   final double maxExtent;
@@ -16,7 +17,7 @@ class TitleBar implements SliverPersistentHeaderDelegate {
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
     return Container(
-      color: kMainColor, //Color.fromRGBO(69, 150, 236, 1),
+      color: kMainColor,
       child: Stack(
         fit: StackFit.expand,
         children: [
@@ -29,18 +30,6 @@ class TitleBar implements SliverPersistentHeaderDelegate {
               fit: BoxFit.cover,
             ),
           ),
-          // Container(
-          //   color: Colors.white,
-          //   decoration: BoxDecoration(
-          //     gradient: LinearGradient(
-          //       colors: [Colors.transparent, Colors.black54],
-          //       stops: [0.5, 1.0],
-          //       begin: Alignment.topCenter,
-          //       end: Alignment.bottomCenter,
-          //       tileMode: TileMode.repeated,
-          //     ),
-          //   ),
-          // ),
           Positioned(
             top: 16.0,
             left: 16.0,
@@ -54,7 +43,6 @@ class TitleBar implements SliverPersistentHeaderDelegate {
                     'web/assets/images/ws_logo.png',
                     width: 70,
                     height: 70,
-                    // fit: BoxFit.contain,
                   ),
                   SizedBox(width: 8),
                   Text(

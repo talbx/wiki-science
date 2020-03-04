@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
 
-// Die CenteredView Klasse nimmt im Konstruktor ein Widget 'child' entgegen
-// und sorgt dafür, dass die Anwendung gewisse Constraints einhält.
-// Das Child Widget ist der Inhalt der CenteredView.
-// Die CenteredView hält zum linken und rechten Rand des Bildschirms einen minimalen Abstand von 70 Pixeln,
-// und zum oberen Rand immer einen Abstand von 30 Pixeln,
-// zum unteren Rand wird kein Abstand gehalten.
-// Die CenteredView hat eine maximale Breite von 1200 Pixeln, um die Übersicht zu bewahren.
+// die CenteredView Klasse packt den Inhalt der HomeView in eine ConstrainedBox
 class CenteredView extends StatelessWidget {
-  // Klassenparameter child vom Typ Widget
-  // nimmt ein beliebiges Widget entgegen und zeigt es in der View an
   final Widget child;
   const CenteredView({this.child});
 

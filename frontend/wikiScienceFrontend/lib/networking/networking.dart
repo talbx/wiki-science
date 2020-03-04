@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:wikiScienceFrontend/data/constants.dart';
 import 'dart:convert';
 
-import 'package:wikiScienceFrontend/data/dataModel/sample.dart';
+import 'package:wikiScienceFrontend/data/dataModel/dataModel.dart';
 import 'package:wikiScienceFrontend/data/sampleData.dart';
 
 class NetworkHelper {
@@ -22,14 +22,12 @@ class NetworkHelper {
     }
   }
 
-  Future<List<Sample>> getData() async {
-    List<Sample> data;
-    print('vorher');
+  Future<List<DataModel>> getData() async {
+    List<DataModel> data;
     var rawData = await fetchData();
-    print(3);
     for (var _data in rawData) {
       data.add(
-        Sample(domain: _data['title'], measure: _data['id'], color: kMainColorCharts),
+        DataModel(domain: _data['title'], measure: _data['id'], color: kMainColorCharts),
       );
     }
     return data;

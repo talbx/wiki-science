@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wikiScienceFrontend/data/constants.dart';
 
 class AnswerGallerie extends StatefulWidget {
   @override
@@ -25,23 +26,33 @@ class _AnswerGallerieState extends State<AnswerGallerie> {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         FlatButton(
           onPressed: () {
             setState(() {
-              (_imageIndex > 0) ? _imageIndex-- : _imageIndex = images.length-1;
+              (_imageIndex > 0)
+                  ? _imageIndex--
+                  : _imageIndex = images.length - 1;
             });
           },
-          child: Container(height: 20, width: 20, color: Colors.blue),
+          child: Icon(Icons.arrow_back_ios, color: kMainColor, size: 50),
         ),
-        Container(height: 500, width: 800, child: images[_imageIndex]),
+        ConstrainedBox(
+          constraints: BoxConstraints(maxWidth: 900, maxHeight: 600),
+          child: Expanded(
+            child: images[_imageIndex],
+          ),
+        ),
         FlatButton(
           onPressed: () {
             setState(() {
-              (_imageIndex < images.length-1) ? _imageIndex++ : _imageIndex = 0;
+              (_imageIndex < images.length - 1)
+                  ? _imageIndex++
+                  : _imageIndex = 0;
             });
           },
-          child: Container(height: 20, width: 20, color: Colors.blue),
+          child: Icon(Icons.arrow_forward_ios, color: kMainColor, size: 50),
         ),
       ],
     );
