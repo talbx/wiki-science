@@ -11,8 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Data
-@Entity(name = "LATEST_CONTRIBUTORS")
-@Table(name = "LATEST_CONTRIBUTORS")
+@Entity(name = "PREMIUM_CONTRIBUTORS")
+@Table(name = "PREMIUM_CONTRIBUTORS")
 @AllArgsConstructor
 @NoArgsConstructor
 public class PremiumContributorsEntity {
