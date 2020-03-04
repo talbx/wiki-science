@@ -3,7 +3,7 @@ import 'package:wikiScienceFrontend/data/constants.dart';
 import 'package:wikiScienceFrontend/widgets/column_builder/column_builder.dart';
 import 'package:wikiScienceFrontend/widgets/results/result_card.dart';
 
-// Die ResultsList-Klasse speichert ein Column mit ResultCard Objekten
+// Die ResultsList-Klasse gibt ein Column mit ResultCard Objekten zurück
 class ResultsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

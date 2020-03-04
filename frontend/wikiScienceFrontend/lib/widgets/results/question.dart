@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wikiScienceFrontend/data/constants.dart';
 
 // Diese Klasse stellt einen Rahmen für die Frage genau einer Frage zur Verfügung.
 class Question extends StatelessWidget {
@@ -11,20 +12,18 @@ class Question extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 20,
+      height: 40,
       child: Row(
         children: <Widget>[
-          Icon(Icons.attach_file),
+          Icon(Icons.attach_file, color: kMainColor),
           SizedBox(width: 10),
           Text(
             question,
-            style: Theme.of(context).textTheme.subtitle1,
-            // TextStyle(
-            //   fontWeight: FontWeight.w300,
-            // ),
+            style: TextStyle(
+                fontSize: 20, fontWeight: FontWeight.bold, color: kMainColor),
           ),
           Spacer(),
-          Icon(icon),
+          Icon(icon, color: kMainColor),
         ],
       ),
     );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// baut dynamisch ein Column auf
 class ColumnBuilder extends StatelessWidget {
   final IndexedWidgetBuilder itemBuilder;
   final MainAxisAlignment mainAxisAlignment;

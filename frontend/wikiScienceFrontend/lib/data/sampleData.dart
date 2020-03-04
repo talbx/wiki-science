@@ -1,49 +1,53 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'dataModel/sample.dart';
+import 'package:wikiScienceFrontend/data/constants.dart';
+import 'dataModel/dataModel.dart';
 
-final List<Sample> data = [
-  Sample(domain: '0000', measure: 0),
+final List<DataModel> data = [
+  DataModel(domain: '0000', measure: 0, color: kMainColorCharts),
 ];
 
 final desktopSalesData = [
-  Sample(domain: '2014', measure: 5),
-  Sample(domain: '2015', measure: 25),
-  Sample(domain: '2016', measure: 100),
-  Sample(domain: '2017', measure: 75),
+  DataModel(domain: '2014', measure: 5, color: kMainColorCharts),
+  DataModel(domain: '2015', measure: 25, color: kMainColorCharts),
+  DataModel(domain: '2016', measure: 100, color: kMainColorCharts),
+  DataModel(domain: '2017', measure: 75, color: kMainColorCharts),
 ];
 
 final tableSalesData = [
-  Sample(domain: '2014', measure: 25),
-  Sample(domain: '2015', measure: 50),
-  Sample(domain: '2016', measure: 10),
-  Sample(domain: '2017', measure: 20),
+  DataModel(domain: '2014', measure: 25, color: kMainColorCharts),
+  DataModel(domain: '2015', measure: 50, color: kMainColorCharts),
+  DataModel(domain: '2016', measure: 10, color: kMainColorCharts),
+  DataModel(domain: '2017', measure: 20, color: kMainColorCharts),
 ];
 
 final mobileSalesData = [
-  Sample(domain: '2014', measure: 0),
-  Sample(domain: '2015', measure: 5),
-  Sample(domain: '2016', measure: 0),
-  Sample(domain: '2017', measure: 5),
+  DataModel(domain: '2014', measure: 0, color: kMainColorCharts),
+  DataModel(domain: '2015', measure: 5, color: kMainColorCharts),
+  DataModel(domain: '2016', measure: 0, color: kMainColorCharts),
+  DataModel(domain: '2017', measure: 5, color: kMainColorCharts),
 ];
 
-List<charts.Series<Sample, String>> groupedData = [
-  charts.Series<Sample, String>(
+List<charts.Series<DataModel, String>> groupedData = [
+  charts.Series<DataModel, String>(
     id: 'Desktop',
-    domainFn: (Sample sales, _) => sales.domain,
-    measureFn: (Sample sales, _) => sales.measure,
+    domainFn: (DataModel sales, _) => sales.domain,
+    measureFn: (DataModel sales, _) => sales.measure,
+    colorFn: (DataModel sales, _) => sales.color,
     data: desktopSalesData,
   ),
-  charts.Series<Sample, String>(
+  charts.Series<DataModel, String>(
     id: 'Tablet',
-    domainFn: (Sample sales, _) => sales.domain,
-    measureFn: (Sample sales, _) => sales.measure,
+    domainFn: (DataModel sales, _) => sales.domain,
+    measureFn: (DataModel sales, _) => sales.measure,
+    colorFn: (DataModel sales, _) => sales.color,
     data: tableSalesData,
   ),
-  charts.Series<Sample, String>(
+  charts.Series<DataModel, String>(
     id: 'Mobile',
-    domainFn: (Sample sales, _) => sales.domain,
-    measureFn: (Sample sales, _) => sales.measure,
+    domainFn: (DataModel sales, _) => sales.domain,
+    measureFn: (DataModel sales, _) => sales.measure,
+    colorFn: (DataModel sales, _) => sales.color,
     data: mobileSalesData,
   ),
 ];

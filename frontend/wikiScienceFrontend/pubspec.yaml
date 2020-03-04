@@ -16,9 +16,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
 flutter:
+  uses-material-design: true
   assets:
     - web/assets/images/
+    - web/assets/images/answerGallerie/
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
