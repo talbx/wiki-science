@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
 import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
 class Answer1 extends StatelessWidget {
   final _widgetList = [
     Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('data'),
-        SizedBox(height: 16),
-        AnswerContributors(),
-      ],
-    ),
-    Column(
-      children: <Widget>[
-        Text('data'),
+        Text('Anzahl der Wörter in den längsten Artikeln'),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/article_length/sheet1.JPG',
@@ -22,8 +15,9 @@ class Answer1 extends StatelessWidget {
       ],
     ),
     Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('data'),
+        Text('Die Größe und Farbintensität des Kreises spiegelt die Anzahl der Wörter in einem Artikel wieder'),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/article_length/sheet2.png',

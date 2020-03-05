@@ -20,9 +20,9 @@ const url =
 final questions = const {
   0: 'Edits pro Zeitpunkt',
   1: 'Längste Artikel',
-  2: 'Top 10k Autoren pro Land',
-  3: 'Top 10k Edits pro Land',
-  4: 'Edits',
+  2: 'Länder mit meisten Autoren',
+  3: 'Länder mit meisten Edits',
+  4: 'Topics',
   5: 'Funfacts',
 };
 

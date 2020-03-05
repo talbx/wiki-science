@@ -5,15 +5,10 @@ import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 class Answer4 extends StatelessWidget {
   final _widgetList = [
     Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('data'),
-        SizedBox(height: 16),
-        AnswerContributors(),
-      ],
-    ),
-    Column(
-      children: <Widget>[
-        Text('data'),
+        Text(
+            'Anzahl der am häufigsten verwendeten Wörter in den Titeln aller Artikel '),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/topics/topicsBars.JPG',
@@ -22,8 +17,10 @@ class Answer4 extends StatelessWidget {
       ],
     ),
     Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('data'),
+        Text(
+            'Verteilung der am häufigsten verwendeten Wörter in den Titeln aller Artikel '),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/topics/topicsDistr.JPG',
