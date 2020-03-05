@@ -21,7 +21,10 @@ flutter:
   uses-material-design: true
   assets:
     - web/assets/images/
-    - web/assets/images/answerGallerie/
+    - web/assets/images/article_length/
+    - web/assets/images/contributors_10k/
+    - web/assets/images/contributions_10k/
+    - web/assets/images/topics/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
 import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
-class Answer4 extends StatelessWidget {
+class Answer1 extends StatelessWidget {
   final _widgetList = [
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text(
-            'Anzahl der am häufigsten verwendeten Wörter in den Titeln aller Artikel '),
+        Text('Anzahl der Wörter in den längsten Artikeln'),
         SizedBox(height: 16),
         Image.asset(
-          'web/assets/images/topics/topicsBars.JPG',
+          'web/assets/images/article_length/sheet1.JPG',
           fit: BoxFit.contain,
         ),
       ],
@@ -19,11 +17,11 @@ class Answer4 extends StatelessWidget {
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text(
-            'Verteilung der am häufigsten verwendeten Wörter in den Titeln aller Artikel '),
+        Text('Die Größe und Farbintensität des Kreises spiegelt die Anzahl der Wörter in einem Artikel wieder'),
         SizedBox(height: 16),
         Image.asset(
-          'web/assets/images/topics/topicsDistr.JPG',
+          'web/assets/images/article_length/sheet2.png',
+          height: 500,
           fit: BoxFit.contain,
         ),
       ],

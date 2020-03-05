@@ -4,7 +4,6 @@ import 'package:wikiScienceFrontend/data/constants.dart';
 import 'dart:convert';
 
 import 'package:wikiScienceFrontend/data/dataModel/dataModel.dart';
-import 'package:wikiScienceFrontend/data/sampleData.dart';
 
 class NetworkHelper {
   final String url;
@@ -27,7 +26,10 @@ class NetworkHelper {
     var rawData = await fetchData();
     for (var _data in rawData) {
       data.add(
-        DataModel(domain: _data['title'], measure: _data['id'], color: kMainColorCharts),
+        DataModel(
+            domain: _data['title'],
+            measure: _data['id'],
+            color: kMainColorCharts),
       );
     }
     return data;

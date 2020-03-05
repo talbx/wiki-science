@@ -8,7 +8,8 @@ class Answer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.symmetric(horizontal: 40, vertical: 32),
-        child: child);
+      padding: EdgeInsets.symmetric(horizontal: 40, vertical: 32),
+      child: child,
+    );
   }
 }

@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
-import 'package:wikiScienceFrontend/data/constants.dart';
 import 'dart:convert';
 import 'package:wikiScienceFrontend/data/dataModel/dataModel.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
-class AnswerContributors extends StatefulWidget {
+class AutorenProLand extends StatefulWidget {
   @override
-  _AnswerContributorsState createState() => _AnswerContributorsState();
+  _AutorenProLandState createState() => _AutorenProLandState();
 }
 
-class _AnswerContributorsState extends State<AnswerContributors> {
+class _AutorenProLandState extends State<AutorenProLand> {
   Future<List<DataModel>> _getData() async {
     var empData = await http
-        .get('http://localhost:8080/api/contributors/contributionsPerCountry');
+        .get('http://localhost:8080/api/contributors/contributorsPerCountry');
     var jsonData = json.decode(empData.body);
     List<DataModel> data = [];
     for (var countryData in jsonData) {

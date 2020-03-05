@@ -1,27 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
+import 'package:wikiScienceFrontend/widgets/animated_counter/animated_counter.dart';
+import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
-class Answer2 extends StatelessWidget {
-  final List<charts.Series> data;
-  Answer2(this.data);
+class Answer5 extends StatelessWidget {
+  final _widgetList = [
+    Column(
+      children: <Widget>[
+        Text('Hier ist ein Beispiel'),
+        SizedBox(height: 16),
+        AnimatedCounter(123456),
+      ],
+    ),
+    Column(
+      children: <Widget>[
+        Text('Hier ist ein ANDERES Beispiel'),
+        SizedBox(height: 16),
+        AnimatedCounter(123456),
+      ],
+    ),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 400,
-      child: Column(
-        children: <Widget>[
-          Text('My personal income!'),
-          Expanded(
-            child: charts.BarChart(
-              data,
-              animate: true,
-              barGroupingType: charts.BarGroupingType.groupedStacked,
-              defaultInteractions: false,
-            ),
-          )
-        ],
-      ),
+      child: Gallery(_widgetList),
     );
   }
 }

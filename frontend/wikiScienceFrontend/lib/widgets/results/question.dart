@@ -13,17 +13,31 @@ class Question extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 40,
-      child: Row(
+      child: Column(
         children: <Widget>[
-          Icon(Icons.attach_file, color: kMainColor),
-          SizedBox(width: 10),
-          Text(
-            question,
-            style: TextStyle(
-                fontSize: 20, fontWeight: FontWeight.bold, color: kMainColor),
+          Row(
+            children: <Widget>[
+              Icon(Icons.attach_file, color: kMainColor),
+              SizedBox(width: 10),
+              Text(
+                question,
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: kMainColor),
+              ),
+              Spacer(),
+              Icon(icon, color: kMainColor),
+            ],
           ),
-          Spacer(),
-          Icon(icon, color: kMainColor),
+          SizedBox(height: 8),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Divider(
+              height: 1,
+              color: kMainColor,
+            ),
+          )
         ],
       ),
     );
