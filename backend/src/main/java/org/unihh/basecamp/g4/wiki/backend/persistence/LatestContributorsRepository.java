@@ -21,4 +21,5 @@ public interface LatestContributorsRepository extends JpaRepository<LatestContri
 
     @Query(nativeQuery = true, value = "SELECT * FROM IP_CONTRIBUTORS ORDER BY CONTRIBUTIONS DESC LIMIT 10000")
     List<LatestContributorsEntity> top10000Ips();
+
 }
