@@ -5,11 +5,14 @@ import org.springframework.web.bind.annotation.*;
 import org.unihh.basecamp.g4.wiki.backend.entity.CountryCount;
 import org.unihh.basecamp.g4.wiki.backend.entity.LatestContributorsEntity;
 import org.unihh.basecamp.g4.wiki.backend.entity.PremiumContributorsEntity;
-import org.unihh.basecamp.g4.wiki.backend.functions.*;
+import org.unihh.basecamp.g4.wiki.backend.functions.FindLocationForIp;
+import org.unihh.basecamp.g4.wiki.backend.functions.GeoLocation;
+import org.unihh.basecamp.g4.wiki.backend.functions.IPFilter;
 import org.unihh.basecamp.g4.wiki.backend.persistence.LatestContributorsRepository;
 import org.unihh.basecamp.g4.wiki.backend.persistence.PremiumContributorsRepository;
 
 import java.util.*;
+import java.util.function.BiFunction;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
@@ -20,17 +23,13 @@ public class ContributorApi {
 
     private final LatestContributorsRepository latestContributorsRepository;
     private final PremiumContributorsRepository premiumContributorsRepository;
-    private final ContributionsPerCountry contributionsPerCountry;
-    private final ContributorsPerCountry contributorsPerCountry;
     private final FindLocationForIp locationFinder;
     private final IPFilter ipFilter;
 
     @Autowired
-    public ContributorApi(final LatestContributorsRepository latestContributorsRepository, final PremiumContributorsRepository premiumContributorsRepository, final ContributionsPerCountry contributionsPerCountry, final ContributorsPerCountry contributorsPerCountry, final FindLocationForIp locationFinder, final IPFilter ipFilter) {
+    public ContributorApi(final LatestContributorsRepository latestContributorsRepository, final PremiumContributorsRepository premiumContributorsRepository, final FindLocationForIp locationFinder, final IPFilter ipFilter) {
         this.latestContributorsRepository = latestContributorsRepository;
         this.premiumContributorsRepository = premiumContributorsRepository;
-        this.contributionsPerCountry = contributionsPerCountry;
-        this.contributorsPerCountry = contributorsPerCountry;
         this.locationFinder = locationFinder;
         this.ipFilter = ipFilter;
     }
@@ -71,47 +70,108 @@ public class ContributorApi {
         return countUsernames(entities);
     }
 
-    private Long countUsernames(List<PremiumContributorsEntity> entities) {
-        return entities.stream().map(PremiumContributorsEntity::getUsername).distinct().count();
-    }
-
-    public List<LatestContributorsEntity> top100Ips() {
-        return ips(latestContributorsRepository::top100Ips);
-    }
-
-    public List<LatestContributorsEntity> top10000Ips() {
-        return ips(latestContributorsRepository::top10000Ips);
-    }
-
-
-    @RequestMapping(path = "/geolocation1", method = RequestMethod.GET)
-    public Map<String, GeoLocation> getGeolocation() {
-        return locationFinder.apply(top100Ips());
-    }
-
-    @RequestMapping(path = "/geolocation3", method = RequestMethod.GET)
-    public Map<String, GeoLocation> getGeolocation3() {
-        return locationFinder.apply(top10000Ips());
-    }
-
     @RequestMapping(path = "/contributorsPerCountry", method = RequestMethod.GET)
     public List<CountryCount> contributorsPerCountry() {
-        return contributorsPerCountry.apply(this::getGeolocation, this::top100Ips);
+        List<LatestContributorsEntity> top100Ips = top100Ips();
+        Map<String, GeoLocation> locations = locationFinder.apply(top100Ips);
+
+        List<CountryCount> countryCounts = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
+            for (LatestContributorsEntity ip : top100Ips) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + 1);
+                }
+            }
+        }
+
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+
+        return countryCounts;
     }
 
     @RequestMapping(path = "/contributorsPerCountry10K", method = RequestMethod.GET)
     public List<CountryCount> contributorsPerCountry10K() {
-        return contributorsPerCountry.apply(this::getGeolocation3, this::top10000Ips);
+        List<LatestContributorsEntity> topIps = top10000Ips();
+        Map<String, GeoLocation> locations = locationFinder.apply(topIps);
+
+        List<CountryCount> countryCounts = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
+            for (LatestContributorsEntity ip : topIps) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + 1);
+                }
+            }
+        }
+
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+
+        return countryCounts;
     }
 
     @RequestMapping(path = "/contributionsPerCountry", method = RequestMethod.GET)
     public List<CountryCount> contributionsPerCountry() {
-        return contributionsPerCountry.apply(this::getGeolocation, this::top100Ips);
+        List<LatestContributorsEntity> top100Ips = top100Ips();
+        Map<String, GeoLocation> locations = locationFinder.apply(top100Ips);
+
+        List<CountryCount> countryCounts = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (LatestContributorsEntity ip : top100Ips) {
+            for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + ip.getContributions());
+                }
+            }
+        }
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+        return countryCounts;
     }
 
     @RequestMapping(path = "/contributionsPerCountry10K", method = RequestMethod.GET)
     public List<CountryCount> contributionsPerCountry10K() {
-        return contributionsPerCountry.apply(this::getGeolocation3, this::top10000Ips);
+        List<LatestContributorsEntity> topIps = top10000Ips();
+        Map<String, GeoLocation> locations = locationFinder.apply(topIps);
+
+        List<CountryCount> countryCounts = new ArrayList<>();
+        Map<String, Integer> map = new HashMap<>();
+        for (LatestContributorsEntity ip : topIps) {
+            for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + ip.getContributions());
+                }
+            }
+        }
+        map.forEach((key, value) -> {
+            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
+            countryCounts.add(countryCount);
+        });
+        return countryCounts;
+    }
+
+    private Long countUsernames(List<PremiumContributorsEntity> entities) {
+        return entities.stream().map(PremiumContributorsEntity::getUsername).distinct().count();
+    }
+
+    private List<LatestContributorsEntity> top100Ips() {
+        return ips(latestContributorsRepository::top100Ips);
+    }
+
+    private List<LatestContributorsEntity> top10000Ips() {
+        return ips(latestContributorsRepository::top10000Ips);
     }
 
     private List<LatestContributorsEntity> ips(Supplier<List<LatestContributorsEntity>> function) {
