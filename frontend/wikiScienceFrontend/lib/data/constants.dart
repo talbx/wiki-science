@@ -14,7 +14,7 @@ final kMainColor = Colors.grey.shade900;
 final kMainColorCharts = charts.ColorUtil.fromDartColor(Colors.grey.shade700);
 
 const url =
-    'http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.0.RELEASE';
+    'http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.1.RELEASE/';
 
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
