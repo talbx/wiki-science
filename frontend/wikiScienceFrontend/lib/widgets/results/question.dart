@@ -37,7 +37,8 @@ class Question extends StatelessWidget {
               height: 1,
               color: kMainColor,
             ),
-          )
+          ),
+          SizedBox(height:1),
         ],
       ),
     );
