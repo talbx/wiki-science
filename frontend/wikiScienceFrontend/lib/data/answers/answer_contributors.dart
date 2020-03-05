@@ -14,7 +14,7 @@ class AnswerContributors extends StatefulWidget {
 class _AnswerContributorsState extends State<AnswerContributors> {
   Future<List<DataModel>> _getData() async {
     var empData = await http
-        .get('http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.1.RELEASE//api/contributors/contributionsPerCountry');
+        .get('http://localhost:8080/api/contributors/contributionsPerCountry');
     var jsonData = json.decode(empData.body);
     List<DataModel> data = [];
     for (var countryData in jsonData) {

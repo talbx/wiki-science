@@ -16,7 +16,7 @@ class ProjectDetails extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
+          SelectableText(
             'Unser Vorhaben',
             style: TextStyle(
                 fontWeight: FontWeight.w300, fontSize: 50, color: kMainColor),
@@ -24,7 +24,7 @@ class ProjectDetails extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          Text(
+          SelectableText(
             unser_vorhaben,
             style: TextStyle(fontSize: 21, height: 1.7, color: kMainColor),
           ),

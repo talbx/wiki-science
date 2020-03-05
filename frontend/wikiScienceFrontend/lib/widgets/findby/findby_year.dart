@@ -5,16 +5,16 @@ import 'package:wikiScienceFrontend/data/constants.dart';
 import 'dart:convert';
 import 'package:wikiScienceFrontend/widgets/animated_counter/animated_counter.dart';
 
-class FindByTime extends StatefulWidget {
+class FindByYear extends StatefulWidget {
   @override
-  _FindByTimeState createState() => _FindByTimeState();
+  _FindByYearState createState() => _FindByYearState();
 }
 
-class _FindByTimeState extends State<FindByTime> {
-  String time = '00';
+class _FindByYearState extends State<FindByYear> {
+  String year = '2002';
   Future<int> _getData() async {
     var empData = await http
-        .get('http://localhost:8080/api/contributors/findByTime/$time');
+        .get('http://localhost:8080/api/contributors/findByMoment/$year');
     var jsonData = json.decode(empData.body);
     return jsonData;
   }
@@ -28,9 +28,9 @@ class _FindByTimeState extends State<FindByTime> {
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
-              Text('Die Anzahl der Bearbeitungen von Wikipedia-Artikeln, zwischen 2002 und 2020, um '),
+              Text('Die Anzahl der Bearbeitungen von Wikipedia-Artikeln, im Jahr '),
               DropdownButton<String>(
-                value: time,
+                value: year,
                 elevation: 16,
                 style: TextStyle(color: kMainColor),
                 underline: Container(
@@ -39,17 +39,16 @@ class _FindByTimeState extends State<FindByTime> {
                 ),
                 onChanged: (String newValue) {
                   setState(() {
-                    time = newValue;
+                    year = newValue;
                   });
                 },
-                items: kUhrzeiten.map<DropdownMenuItem<String>>((String value) {
+                items: kJahre.map<DropdownMenuItem<String>>((String value) {
                   return DropdownMenuItem<String>(
                     value: value,
                     child: Text(value),
                   );
                 }).toList(),
               ),
-              Text(' Uhr'),
             ],
           ),
           SizedBox(height: 32),

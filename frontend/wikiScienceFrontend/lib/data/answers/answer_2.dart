@@ -26,7 +26,7 @@ class Answer2 extends StatelessWidget {
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Verteilung weltweit '),
+        Text('Verteilung der aktivsten Nutzer weltweit'),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/contributors_10k/top10kworld.png',
@@ -37,7 +37,7 @@ class Answer2 extends StatelessWidget {
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Verteilung Europa'),
+        Text('Verteilung der aktivsten Nutzer weltweit, mit Fokus auf Europa'),
         SizedBox(height: 16),
         Image.asset(
           'web/assets/images/contributors_10k/top10kEU.png',
