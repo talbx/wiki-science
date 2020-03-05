@@ -25,7 +25,7 @@ class _AnswerGallerieState extends State<AnswerGallerie> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Gallery(widgetList: images),
+      child: Gallery(images),
     );
   }
 }

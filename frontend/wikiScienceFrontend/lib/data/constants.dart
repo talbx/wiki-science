@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_gallerie.dart';
-import 'package:wikiScienceFrontend/data/answers/redirect_counter.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_0.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_1.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_2.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_3.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_4.dart';
+import 'package:wikiScienceFrontend/data/answers/answer_5.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
 // In diesem Dokument werden notwendige Konstanten und Informationen gespeichert.
@@ -15,14 +18,20 @@ const url =
 
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
-  0: 'dynamische Dateneinbindung',
-  1: 'Anzahl der Bearbeitungen pro Autor, zwischen 2002 und 2020',
-  2: 'Anzahl der Verlinkungen in Artikeln, zwischen 2002 und 2020',
+  0: 'Edits pro Zeitpunkt',
+  1: 'Längste Artikel',
+  2: 'Top 10k Autoren pro Land',
+  3: 'Top 10k Edits pro Land',
+  4: 'Edits',
+  5: 'Funfacts',
 };
 
 // Hier sind die jeweiligen Resultate gespeichert.
 final answers = {
-  0: AnswerContributors(),
-  1: AnswerGallerie(),
-  2: RedirectCounter(),
+  0: Answer0(),
+  1: Answer1(),
+  2: Answer2(),
+  3: Answer3(),
+  4: Answer4(),
+  5: Answer5(),
 };
