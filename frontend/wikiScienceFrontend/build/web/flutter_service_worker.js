@@ -2,7 +2,7 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "/index.html": "7c2c366ef9fee30b2f722b606c848f86",
-"/main.dart.js": "10d45eaeea3edde2bfdf20e59aea9153",
+"/main.dart.js": "a7b282ef22648c344ee6ad3de381077a",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "b55aa9a052316d8b355a4050af5fd008",
@@ -37,9 +37,8 @@ const RESOURCES = {
 "/assets/images/premium _contributor/premiumCont Graph.png": "4fc311206864c9ca1f46b215365a0c90",
 "/assets/images/premium _contributor/premiumCont Bar.png": "d73c9585df31f3595baabe05eb9509de",
 "/assets/images/topics/topics Distr.JPG": "e402b913f5127cf08acaf91584e3dc0d",
-"/assets/images/topics/topicsBars.JPG": "97627909a504a3fbce9af608ff927ae7",
+"/assets/images/topics/topicsBars.JPG": "aafc42802e43674e0509589a8c401262",
 "/assets/images/topics/topics Bars.JPG": "97627909a504a3fbce9af608ff927ae7",
-"/assets/images/topics/topicsDistr.JPG": "e402b913f5127cf08acaf91584e3dc0d",
 "/assets/web/assets/images/ws_logo.png": "55e18e202aa4806e1f0d0dbdcc14d63d",
 "/assets/web/assets/images/contributors_10k/top10kworld.png": "1b9121a1b876993d29fb8ee09b2889c1",
 "/assets/web/assets/images/contributors_10k/top10kEU.png": "12f4f60394e452cfd6603ddf172e6916",
@@ -50,9 +49,8 @@ const RESOURCES = {
 "/assets/web/assets/images/article_length/sheet2.png": "38139448ef4dc68e8eb904a1d1412f8e",
 "/assets/web/assets/images/article_length/sheet1.JPG": "dabf6d283cdf812285702ff8b0e11655",
 "/assets/web/assets/images/ws_front.png": "21e3167124871c854fef83ab92259891",
-"/assets/web/assets/images/topics/topicsBars.JPG": "97627909a504a3fbce9af608ff927ae7",
-"/assets/web/assets/images/topics/topicsDistr.JPG": "e402b913f5127cf08acaf91584e3dc0d",
-"/assets/AssetManifest.json": "533729607750744fd5a0ce18285ce8ab",
+"/assets/web/assets/images/topics/topicsBars.JPG": "aafc42802e43674e0509589a8c401262",
+"/assets/AssetManifest.json": "6c4c44291a2b51d6ce2151cedff157c8",
 "/assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16"

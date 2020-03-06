@@ -8,7 +8,7 @@ class Answer3 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-            'Zu sehen ist die Anzahl der Bearbeitungen der 100 aktivsten Wikipedia-Autoren, verteilt auf ihre Länder'),
+            'Zu sehen ist die Anzahl der Bearbeitungen der 100 aktivsten Wikipedia-Autoren, deren IP-Adresse verfügbar ist, verteilt auf ihre Länder'),
         SizedBox(height: 16),
         EditsProLand(),
       ],
@@ -17,7 +17,7 @@ class Answer3 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-            'Länder sortiert nach der Anzahl an Beiträgen, die von den Top 10.000 Nutzern weltweit kommen'),
+            'Länder sortiert nach der Anzahl an Beiträgen, die von den Top 10.000 Nutzern weltweit kommen, deren IP-Adresse verfügbar ist'),
         SizedBox(height: 16),
         ConstrainedBox(
           constraints: BoxConstraints(maxHeight: 500),

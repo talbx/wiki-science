@@ -4,10 +4,18 @@ import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
 class Answer5 extends StatelessWidget {
   final _widgetList = [
-    ArticleCounts(url: 'wordCount', description: 'word count'),
-    ArticleCounts(url: 'totalArticleCount', description: 'total article Count '),
-    ArticleCounts(url: 'redirects', description: 'redirects'),
-    ArticleCounts(url: 'realArticleCount', description: 'real article count'),
+    ArticleCounts(
+        url: 'wordCount',
+        description: 'Die Anzahl aller unterschiedlichen Wörter'),
+    ArticleCounts(
+        url: 'redirects',
+        description: 'Alle Artikel, die nur auf andere Artikel verweisen'),
+    ArticleCounts(
+        url: 'realArticleCount',
+        description: 'Alle Artikel die keine \'Redirects\' sind'),
+    ArticleCounts(
+        url: 'totalArticleCount',
+        description: 'Alle Artikel inklusive Redirects'),
   ];
 
   @override
