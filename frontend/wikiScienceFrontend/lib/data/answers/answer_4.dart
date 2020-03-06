@@ -15,18 +15,6 @@ class Answer4 extends StatelessWidget {
         ),
       ],
     ),
-    Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        Text(
-            'Verteilung der am häufigsten verwendeten Wörter in den Titeln aller Artikel '),
-        SizedBox(height: 16),
-        Image.asset(
-          'web/assets/images/topics/topicsDistr.JPG',
-          fit: BoxFit.contain,
-        ),
-      ],
-    ),
   ];
 
   @override
