@@ -13,16 +13,15 @@ import 'package:charts_flutter/flutter.dart' as charts;
 final kMainColor = Colors.grey.shade900;
 final kMainColorCharts = charts.ColorUtil.fromDartColor(Colors.grey.shade700);
 
-const url =
-    'http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.1.RELEASE/';
+const url = 'http://localhost:8080';
 
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
-  0: 'Edits pro Zeitpunkt',
+  0: 'Letzte Bearbeitungen von Autoren',
   1: 'Längste Artikel',
-  2: 'Länder mit meisten Autoren',
-  3: 'Länder mit meisten Edits',
-  4: 'Topics',
+  2: 'Länder mit den aktivsten Autoren',
+  3: 'Länder mit den meisten Bearbeitungen',
+  4: 'Wörter mit meistem Vorkommen in Wikipedia-Artikel Titeln',
   5: 'Funfacts',
 };
 
@@ -35,3 +34,69 @@ final answers = {
   4: Answer4(),
   5: Answer5(),
 };
+
+// ab hier liegen Hilfsdaten
+const kUhrzeiten = <String>[
+  '00',
+  '01',
+  '02',
+  '03',
+  '04',
+  '05',
+  '06',
+  '07',
+  '08',
+  '09',
+  '10',
+  '11',
+  '12',
+  '13',
+  '14',
+  '15',
+  '16',
+  '17',
+  '18',
+  '19',
+  '20',
+  '21',
+  '22',
+  '23',
+  '24'
+];
+
+const kMonate = <String>[
+  '01',
+  '02',
+  '03',
+  '04',
+  '05',
+  '06',
+  '07',
+  '08',
+  '09',
+  '10',
+  '11',
+  '12'
+];
+
+const kJahre = <String>[
+  '2002',
+  '2003',
+  '2004',
+  '2005',
+  '2006',
+  '2007',
+  '2008',
+  '2009',
+  '2010',
+  '2011',
+  '2012',
+  '2013',
+  '2014',
+  '2015',
+  '2016',
+  '2017',
+  '2018',
+  '2019',
+  '2020'
+];

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:wikiScienceFrontend/widgets/findby/findby_time.dart';
+import 'package:wikiScienceFrontend/widgets/findby/findby_year.dart';
 import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
 class Answer0 extends StatelessWidget {
   final _widgetList = [
+    FindByYear(),
     FindByTime(),
   ];
 

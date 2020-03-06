@@ -13,7 +13,7 @@ class AutorenProLand extends StatefulWidget {
 class _AutorenProLandState extends State<AutorenProLand> {
   Future<List<DataModel>> _getData() async {
     var empData = await http
-        .get('http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-scicence-backend-1.0.1.RELEASE//api/contributors/contributorsPerCountry');
+        .get('http://localhost:8080/api/contributors/contributorsPerCountry');
     var jsonData = json.decode(empData.body);
     List<DataModel> data = [];
     for (var countryData in jsonData) {
