@@ -17,7 +17,7 @@ const url = 'http://localhost:8080';
 
 // Hier sind die Analysefragen gespeichert.
 final questions = const {
-  0: 'Bearbeitungen pro Zeitpunkt',
+  0: 'Letzte Bearbeitungen von Autoren',
   1: 'Längste Artikel',
   2: 'Länder mit den aktivsten Autoren',
   3: 'Länder mit den meisten Bearbeitungen',

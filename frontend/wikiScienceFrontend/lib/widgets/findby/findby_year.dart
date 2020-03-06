@@ -28,7 +28,7 @@ class _FindByYearState extends State<FindByYear> {
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
-              Text('Die Anzahl der Bearbeitungen von Wikipedia-Artikeln, im Jahr '),
+              Text('Die Anzahl der Wikipedia-Autoren, die nach '),
               DropdownButton<String>(
                 value: year,
                 elevation: 16,
@@ -49,6 +49,7 @@ class _FindByYearState extends State<FindByYear> {
                   );
                 }).toList(),
               ),
+              Text(' keine weiteren Artikel bearbeitet haben:')
             ],
           ),
           SizedBox(height: 32),

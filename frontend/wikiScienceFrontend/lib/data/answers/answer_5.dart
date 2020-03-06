@@ -1,24 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
-import 'package:wikiScienceFrontend/widgets/animated_counter/animated_counter.dart';
+import 'package:wikiScienceFrontend/widgets/funfacts/article_counts.dart';
 import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
 class Answer5 extends StatelessWidget {
   final _widgetList = [
-    Column(
-      children: <Widget>[
-        Text('Hier ist ein Beispiel'),
-        SizedBox(height: 16),
-        AnimatedCounter(123456),
-      ],
-    ),
-    Column(
-      children: <Widget>[
-        Text('Hier ist ein ANDERES Beispiel'),
-        SizedBox(height: 16),
-        AnimatedCounter(123456),
-      ],
-    ),
+    ArticleCounts(url: 'wordCount', description: 'word count'),
+    ArticleCounts(url: 'totalArticleCount', description: 'total article Count '),
+    ArticleCounts(url: 'redirects', description: 'redirects'),
+    ArticleCounts(url: 'realArticleCount', description: 'real article count'),
   ];
 
   @override

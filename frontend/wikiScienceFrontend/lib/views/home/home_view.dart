@@ -11,38 +11,40 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: CustomScrollView(
-        slivers: <Widget>[
-          // der SliverPersistentHeader ist die Titelleiste
-          SliverPersistentHeader(
-            floating: false,
-            pinned: true,
-            delegate: TitleBar(
-              minExtent: 100,
-              maxExtent: 500,
+      body: Scrollbar(
+        child: CustomScrollView(
+          slivers: <Widget>[
+            // der SliverPersistentHeader ist die Titelleiste
+            SliverPersistentHeader(
+              floating: false,
+              pinned: true,
+              delegate: TitleBar(
+                minExtent: 100,
+                maxExtent: 500,
+              ),
             ),
-          ),
-          // die SliverList zeigt den Hauptteil in Form einer Liste an
-          SliverList(
-            delegate: SliverChildListDelegate(
-              [
-                CenteredView(
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(height: 150),
-                      // eine Übersicht über unser Projekt
-                      ProjectDetails(),
-                      SizedBox(height: 150),
-                      // eine Liste über die Analysefragen, mit entsprechendem Resultat
-                      ResultsList(),
-                      SizedBox(height: 300),
-                    ],
+            // die SliverList zeigt den Hauptteil in Form einer Liste an
+            SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  CenteredView(
+                    child: Column(
+                      children: <Widget>[
+                        SizedBox(height: 150),
+                        // eine Übersicht über unser Projekt
+                        ProjectDetails(),
+                        SizedBox(height: 150),
+                        // eine Liste über die Analysefragen, mit entsprechendem Resultat
+                        ResultsList(),
+                        SizedBox(height: 300),
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:wikiScienceFrontend/data/answers/answer_contributors.dart';
 import 'package:wikiScienceFrontend/widgets/gallery/gallery.dart';
 
 class Answer4 extends StatelessWidget {

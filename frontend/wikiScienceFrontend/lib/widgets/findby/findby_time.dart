@@ -28,7 +28,7 @@ class _FindByTimeState extends State<FindByTime> {
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
-              Text('Die Anzahl der Bearbeitungen von Wikipedia-Artikeln, zwischen 2002 und 2020, um '),
+              Text('Die Anzahl der Wikipedia-Autoren, die ihr letzte Bearbeitung um '),
               DropdownButton<String>(
                 value: time,
                 elevation: 16,
@@ -49,7 +49,7 @@ class _FindByTimeState extends State<FindByTime> {
                   );
                 }).toList(),
               ),
-              Text(' Uhr'),
+              Text(' Uhr gemacht haben:'),
             ],
           ),
           SizedBox(height: 32),

@@ -7,7 +7,8 @@ class Answer2 extends StatelessWidget {
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Zu sehen sind die 100 aktivsten Wikipedia-Autoren, verteilt auf ihre Länder'),
+        Text(
+            'Zu sehen sind die 100 aktivsten Wikipedia-Autoren, verteilt auf ihre Länder'),
         SizedBox(height: 16),
         AutorenProLand(),
       ],
@@ -15,11 +16,21 @@ class Answer2 extends StatelessWidget {
     Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Länder sortiert nach der Anzahl der darin lebenden Top 10.000 Nutzern'),
+        Text(
+            'Länder sortiert nach der Anzahl der darin lebenden Top 10.000 Nutzern'),
         SizedBox(height: 16),
-        Image.asset(
-          'web/assets/images/contributors_10k/top10ktops.png',
-          fit: BoxFit.contain,
+        ConstrainedBox(
+          constraints: BoxConstraints(maxHeight: 500),
+          child: Scrollbar(
+            child: ListView(
+              children: <Widget>[
+                Image.asset(
+                  'web/assets/images/contributors_10k/top10ktops.png',
+                  fit: BoxFit.contain,
+                ),
+              ],
+            ),
+          ),
         ),
       ],
     ),

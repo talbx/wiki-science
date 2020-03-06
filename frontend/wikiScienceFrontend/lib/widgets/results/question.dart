@@ -31,14 +31,6 @@ class Question extends StatelessWidget {
             ],
           ),
           SizedBox(height: 8),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Divider(
-              height: 1,
-              color: kMainColor,
-            ),
-          ),
-          SizedBox(height:1),
         ],
       ),
     );
