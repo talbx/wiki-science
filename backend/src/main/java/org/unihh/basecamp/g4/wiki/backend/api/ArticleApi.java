@@ -2,9 +2,7 @@ package org.unihh.basecamp.g4.wiki.backend.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.unihh.basecamp.g4.wiki.backend.entity.RedirectsEntity;
 import org.unihh.basecamp.g4.wiki.backend.entity.FunFactsEntity;
-import org.unihh.basecamp.g4.wiki.backend.persistence.RedirectsRepository;
 import org.unihh.basecamp.g4.wiki.backend.persistence.FunFactsRepository;
 
 import javax.transaction.Transactional;
