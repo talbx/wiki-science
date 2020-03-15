@@ -21,7 +21,7 @@ Make sure that your dump is in one of these formats.
 In order to convert the basic Wikipedia XML format to JSON you can use the wikiextractor: https://github.com/attardi/wikiextractor.
 
 > Note: It might happen that the XML jobs will fail, this is probably due to the format itself. 
-The jobs require to have one article per line, starting with a <xml> and ending with a </xml> tag.
+The jobs require to have one article per line, starting and ending with a xml tag.
 #### Build
 In order to work with the map-reduce application, you'll need to build the sources first.
 Make sure to have maven & java 8 installed.
