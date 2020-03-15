@@ -1,141 +1,82 @@
-# Wiki Sience | base.camp UHH 2020
+# WikiScience | base.camp | University Of Hamburg
+This project is a students research project for the base.camp software-development internship of the university of Hamburg, Germany.
+WikiScience is a data science project which goal is to analyze dumps from wikipedia and collect data from it.
+It consists of a 
+* map-reduce application, which is capable to map & reduce wiki-data via hadoop, 
+* spring-boot backend - which connects to a database, holding most of the information extracted from the map-reduce jobs, aswell as
+serving as REST api for the frontend
+* flutter frontend - which is responsible for the display of the analytical results.
+ 
+You can find a running version of this project @ http://basecamp-demos.informatik.uni-hamburg.de:8080/wiki-science-backend-1.0.2.RELEASE/#/
+## map-reduce
+### Setup
+#### Input Data
+Make sure you have downloaded one of the recent wikipedia dumps from https://dumps.wikimedia.org/.
+Currently, the map-reduce application supports two types of dumps:
+ * Wikipedia XML format
+ * Wikipedia preprocessed JSON format
+ * Wikipedia Title List Plain Text
 
-## Pre-Processing Requirements
-### Standard Dataset Requirements
- - several ~200GB of free storage
- - pre-proccessing server with a lot of power (~ 48 cores 256 GB RAM)
- - ~1d time
+Make sure that your dump is in one of these formats.
+In order to convert the basic Wikipedia XML format to JSON you can use the wikiextractor: https://github.com/attardi/wikiextractor.
 
-### WIP: Full Dataset Requirements
- - several TB (20 TB, if less you need to stop some cronjobs for a while) of free working storage, resulting in ~ 1-3TB
- - pre-proccessing server with a lot of power (~ 48 cores 64 GB RAM)
- - powerfull hadoop cluster
- - multiple days of time (downloading will take at least 3d 7h, extracting, pre-processing)
- - cronjobs for automation (just setup downloading and wait ~ 4d)
-## Dataset
+> Note: It might happen that the XML jobs will fail, this is probably due to the format itself. 
+The jobs require to have one article per line, starting with a <xml> and ending with a </xml> tag.
+#### Build
+In order to work with the map-reduce application, you'll need to build the sources first.
+Make sure to have maven & java 8 installed.
 
-### Wording: 
-- Full Dataset: enwiki-YYYYMM01-pages-meta-history **standard + all revisions, w/ meta** 
-- Standard Dataset: enwiki-latest-pages-articles **all articles w/ latest revisions** @deprecated
+run ```mvn clean install -f map-reduce ```. This will trigger the compile and packaging of the sources.
 
-### Full Dataset Downloading !CURRENTLY RUNNING ON BASECPU1!
+> Note: You can also run ```mvn clean install``` on root level, the aggregator pom.xml will trigger builds for map-reduce AND backend application.
+#### Run on Hadoop Cluster
+Copy the generated map-reduce-<VERSION>.jar onto your Hadoop cluster.
+Make sure, your dumps are also on the cluster so you can start the procedure.
 
-*note:* This should be run on a pre-proccessing server
+To start a job, you first need to decide which map-reduce job you want to execute.
 
-**warning:** After unpacking and pre-processing, several TB of storage space are required. During the download and pre processing you will be able to take a few (or many) coffee breaks.
+To start a job run ```hadoop jar map-reduce-<VERSION>.jar <JOB-NAME> <INPUT-DIR> <OUTPUT-DIR>```
 
-The script `scripts/wiki-download-helper.py` produces wget helper commands from wikipedia dumpstatus.json. 
+> Example: ```hadoop jar map-reduce-1.0.2.RELEASE.jar most-edited-articles ENWIKI_PAGES_FILTERED/* ENWIKI_PAGES_MREDUCED/most-edited-articles```
 
-**usage:**  `wiki-download-helper.py < url_to_dumpstatus.json>`
+A full curated list of jobs can be found below.
+#### Job Overview
+##### XML Jobs
+* word-count
+* contributor-count
+* most-redirects 
+* article-length 
+* article-count
+* category 
+* premium-contributor
+* most-edited-articles
 
-*note:* The generated download bash script ([example](scripts/download_20200201.bash)) does not contain a shebang, each line contains a simple 'wget < url >'.
+##### JSON Jobs
+* article-length-json
+* redirects-json
+* real-article-count-json
+* topics-json
+* total-article-count-json
+* word-count-json
 
-**Example usage** for wikipedia dump 20200201:
-`python scripts/wiki-download-helper.py https://dumps.wikimedia.org/enwiki/20200201/dumpstatus.json > scripts/download_20200201.bash && chmod +x scripts/download_20200201.bash`.
-Copy the generated download script to your desired download directory and simple start it with `./download_20200201.bash` (run in screen!).
-Since wikipedia is limiting max connections per ip, do not try to parallize the download process with the standard mirror.
+##### Plain Text Jobs
+* article-count-plain
+## backend
+### Setup
+#### Build
+n order to work with the backend application you'll need to have maven & java 8 installed.
 
-###Full Dataset Extracting & Preperation !CURRENTLY RUNNING ON BASECPU1!
+run ```mvn clean install -f backend ```. or just ```mvn clean install``` This will trigger the compile and packaging of the sources (excluding or including the map-reduce application).
 
-*note:* This should be run on a pre-proccessing server
+#### Run
+Via ```mvn spring-boot:run -f backend``` you'll start the backend spring boot application. It will etablish a database connection upon startup.
 
-**warning:** The script page-extractor.py **deletes** the source file after processing. Pay attention to complete and correct script paths! (if necessary, add an echo in the scripts to test first!). This is source file deletion is necessary, otherwise over 20TB of storage space would be required (or even more). The extractor.sh script also deletes the source file (.bz2), but this is not dangerous since it only abstracts `bzip2 -d`. 
+> Important Note: You'll need to have access to the bascecamp db of the university of hamburg in order to start in prod mode.
+> You can still etablish a connection via the "dev" profile which requires a mysql database on localhost:3306.
 
-*note:* For the extraction step you should use the cronjobs in parallel to the downloading, otherwise you have to wait completely for the download (~ 3d 7h). With cronjobs, the download does not get faster, but data that has already been downloaded can be processed.
-
-// only register cronjobs!
-
-usage: `extractor.sh extractor-worker.sh download_dir`
-usage: `page-extractor-runner.py page-extractor-worker.sh page-extractor.py download_dir`
-
-`crontab -e`:
-```
-* * * * * /full/path/to/scripts/extractor.sh /full/path/to/scripts/extractor-worker.sh /full/path/to/download/dir/
-* * * * * /full/path/to/scripts/page-extractor-runner.py /full/path/to/scripts/page-extractor-worker.sh /full/path/to/scripts/page-extractor.py /full/path/to/download/dir/
-```
-
-### Full Dataset Upload (to hadoop fs) !CURRENTLY RUNNING ON BASECPU1!
-
-**warning:** automatic ssh key login to hadoop server required.
-
-*note:* This section assumes that pre-proccessing server and hadoop cluster are not the same server. 
-
-*note:* This step can also be started in parallel to the previous ones. Files already copied are renamed to .hadoop
-
-Since we assume that this step is started at the beginning, is the fastest (internal network) and is the last in the process chain, this is not carried out in parallel.
-The files will be uploaded to `wiki-sience-full-dataset`.
-
-// only register the cronjob!
-
-`crontab -e`:
-```
-0 * * * * /full/path/to/scripts/uploader-runner.sh /full/path/to/download/dir/ user@hadoopserver /full/path/to/scripts/uploader.sh
-```
-
-## Standard Dataset Downloading, Extracting and Uploading (enwiki-latest-pages-articles)
-
-**deprecated:** Since we got a grip on the storage consumption (only 2-3 TB now) of the full data set, we have not considered the standard dataset any further. Limited functionality is to be expected. Basically, after the pre-processing, the standard data set on the hadoop cluster can be used with the same MapReduce jobs if these jobs do not use data from the full dataset.
-
-downloading:
-
-`mkdir dataset-download-dir && cd dataset-download-dir`
-
-`wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2` (~ 16GB, ~ max 5MB/s -> ~1h)
-
-extracting:
-
-`bzip2 -d enwiki-latest-pages-articles.xml.bz2` (~ 30min)
-
-pre-processing:
-
-`python /path/to/page-extractor-standard..py enwiki-latest-pages-articles.xml enwiki-latest-pages-articles.ws`  (~ **6h**)
-
-uploading: 
-`cat enwiki-latest-pages-articles.ws.gz | ssh user@hadoop "hadoop fs -put - wiki-sience-standard-dataset/enwiki-latest-pages-articles.ws.gz" && mv enwiki-latest-pages-articles.ws.gz "enwiki-latest-pages-articles.ws.gz.hadoop"` 
-
-## pausing pre-processing & storage problems
-
-At the beginning we hoped that the pre-processing would run as fast as the download. Even if disk I/O, actual download speed, extraction & pre-processing are difficult to estimate, you should invest a little more time here.
-
-Depending on how many pre processing servers are available, you should split the download. If a lot of RAM is available, some tasks like gz packaging can be done completely in-memory. Bzip2 extracting could also be solved using streams, but these can only be paused in a complicated manner.
-
-If the "swap" storage becomes scarce, all pre processing tasks can be paused with killall -STOP python. If the tasks are paused, the cron jobs must be commented out. With kill -CONT [pid], a few processes can be started first, which then finish faster before the hard disk is full.
-
-The unpack process (bzip2 -d) can also be started manually for only part of the data if the cronjob should not unpack everything immediately after the download. so you can save several "Swap TB" if this part is subsequently processed and solved.
-
-Start 50 unpack jobs:
-`ls -la | grep '.bz2' | head -50 | awk '{print "bzip2 -d "$9 " &"}' | /bin/bash`
-
-### Hadoop Dataset Usage
-
-Usage:
- - hadoop jar jarfile [parameter] input output
-
-just choose `wiki-sience-full-dataset` or `wiki-sience-standard-dataset` as 'input'. Even though `wiki-sience-full-dataset` is directory containing multiple compressed `ws.gz` files and `wiki-sience-standard-dataset` is a directory with just one uncompress `ws` file, hadoop can use this as an input stream!
-
-Examples (replace c.jar by your jar and job parameter):
-- hadoop jar c.jar **wiki-sience-standard-dataset** contributors
-- hadoop jar c.jar **wiki-sience-full-dataset** contributors
-
-## Development
-
-### MOTD :: CURRENTLY RUNNING ON BASECPU1
-The download, extraction and hadoop fs upload is currently running on basecpu1, please do not hinder with filelocks or other huge processes.
-
-### Compile
-```mvn clean install``` for running compiling, packaging and tests
-```mvn clean install -DskipTests``` for running compiling, packaging without running tests
-
-### Default Startup
-start spring-boot test run: 
-```mvn spring-boot:run```
-
-### Custom Startup
-start the spring-boot job dispatcher with an specific job:
-```mvn spring-boot:run -Dspring-boot.run.arguments="--jobName=<JobName> --jobInput=<FileName> --jobOuput=<OutputName>"```
-
-## Deploy
-### Default Startup
-start the spring-boot job dispatcher from jar: 
-```java -jar target/wiki-science-0.0.1-SNAPSHOT.jar --jobName=<JobName> --jobInput=<FileName> --jobOutput=<OutputName>```
-
+When the application is started, you can visit the REST api @ http://localhost:8080/swagger-ui.html.
+## frontend
+WIP
+### Deploy
+To deploy the frontend, just copy all sources below build/web/ into the static resources of the backend application.
+A resource handler will expose the frontend application to the servlet. The running live demo is also deployed this way.
