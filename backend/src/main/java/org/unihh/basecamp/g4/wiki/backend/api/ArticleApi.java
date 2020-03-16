@@ -21,12 +21,12 @@ public class ArticleApi {
     }
 
     @RequestMapping(path = "/get/{title}", method = RequestMethod.GET)
-    public FunFactsEntity getRedirects(@PathVariable("title") String title) {
+    public FunFactsEntity getFunFactByTitle(@PathVariable("title") String title) {
         return funFactsRepository.findByTitle(title);
     }
 
     @RequestMapping(path = "/redirects", method = RequestMethod.GET)
-    public FunFactsEntity getRedirects() {
+    public FunFactsEntity getRedirectsCount() {
         return funFactsRepository.findByTitle("redirects");
     }
 

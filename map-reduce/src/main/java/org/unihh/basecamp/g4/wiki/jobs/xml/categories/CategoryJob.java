@@ -11,6 +11,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+/**
+ * Reads a list of xml-based wiki articles
+ * and performs a word-count for each category
+ */
 public class CategoryJob implements WikiJob {
     private JobConf conf;
 

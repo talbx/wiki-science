@@ -12,6 +12,10 @@ import org.unihh.basecamp.g4.wiki.jobs.json.JSONTotalArticleCount.JSONTotalArtic
 
 import java.io.IOException;
 
+/**
+ * Reads a list of json-formatted wiki articles
+ * and counts all words. It is the basic word count for every article.
+ */
 public class JSONWordCountJob implements WikiJob {
 
     private JobConf conf;

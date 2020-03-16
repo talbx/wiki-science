@@ -10,6 +10,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
+/**
+ * Reads a list of json-formatted wiki articles
+ * and counts all of which are just redirecting to real articles.
+ */
 public class JSONRedirectsJob implements WikiJob {
 
     private JobConf conf;

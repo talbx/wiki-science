@@ -12,6 +12,10 @@ import org.unihh.basecamp.g4.wiki.jobs.json.JSONRedirects.JSONRedirectsMapper;
 
 import java.io.IOException;
 
+/**
+ * Reads a list of json-formatted wiki articles
+ * and counts them all.
+ */
 public class JSONTotalArticleCountJob implements WikiJob {
 
     private JobConf conf;

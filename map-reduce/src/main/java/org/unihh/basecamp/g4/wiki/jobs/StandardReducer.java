@@ -10,6 +10,10 @@ import org.apache.hadoop.mapred.Reporter;
 import java.io.IOException;
 import java.util.Iterator;
 
+/**
+ * StandardReducer, which is used by all our Text -> Int Jobs.
+ * This is the classic WordCount - type reducer.
+ */
 public class StandardReducer extends MapReduceBase implements Reducer<Text, IntWritable, Text, IntWritable> {
     public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
         int sum = 0;

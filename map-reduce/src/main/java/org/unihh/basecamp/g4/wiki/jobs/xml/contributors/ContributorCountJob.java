@@ -8,6 +8,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+/**
+ * Reads a list of xml-based wiki articles
+ * and collects the authors
+ */
 public class ContributorCountJob implements WikiJob {
     private JobConf conf;
 

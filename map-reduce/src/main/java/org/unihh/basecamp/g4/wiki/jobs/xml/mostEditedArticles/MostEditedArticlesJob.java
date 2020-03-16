@@ -8,6 +8,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 import java.io.IOException;
 import java.util.logging.Logger;
 
+/**
+ * Reads a list of xml-based wiki articles
+ * and counts the amount of edits per article.
+ */
 public class MostEditedArticlesJob implements WikiJob {
     private JobConf conf;
 

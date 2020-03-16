@@ -1,9 +1,7 @@
 package org.unihh.basecamp.g4.wiki.jobs;
 
-import org.apache.hadoop.mapred.JobConf;
-
 /**
- * WikiJob Interface
+ * Basic Job for map-reduce operations
  */
 public interface WikiJob {
 
@@ -14,7 +12,8 @@ public interface WikiJob {
 
     /**
      * returns the job name
-     * @return
+     *
+     * @return jobname
      */
     String getName();
 

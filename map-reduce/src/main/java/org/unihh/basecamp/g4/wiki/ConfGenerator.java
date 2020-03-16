@@ -8,7 +8,15 @@ import org.unihh.basecamp.g4.wiki.jobs.TextReducer;
 
 public class ConfGenerator {
 
-    public <X extends Mapper> JobConf generateTextIntConf(String name, Class<?> job, Class<X> mapper) {
+    /**
+     * Generates a JobConf for String -> Integer map-reduce functions.
+     * @param name - the name the job should own
+     * @param job - the job class
+     * @param mapper - the mapper class
+     * @param <X> - A mapper
+     * @return the built job conf
+     */
+    public <X extends Mapper<?,?,?,?>> JobConf generateTextIntConf(String name, Class<?> job, Class<X> mapper) {
         JobConf conf = new JobConf(job);
         conf.setJobName(name);
 
@@ -27,7 +35,15 @@ public class ConfGenerator {
         return conf;
     }
 
-    public <X extends Mapper>JobConf generateTextText(String name, Class<?> job, Class<X> mapper) {
+    /**
+     * Generates a JobConf for String -> String map-reduce functions.
+     * @param name - the name the job should own
+     * @param job - the job class
+     * @param mapper - the mapper class
+     * @param <X> - A mapper
+     * @return the built job conf
+     */
+    public <X extends Mapper<?,?,?,?>>JobConf generateTextText(String name, Class<?> job, Class<X> mapper) {
         JobConf conf = new JobConf(job);
         conf.setJobName(name);
 
@@ -45,5 +61,4 @@ public class ConfGenerator {
         conf.set("mapreduce.output.textoutputformat.separator", ";");
         return conf;
     }
-
 }

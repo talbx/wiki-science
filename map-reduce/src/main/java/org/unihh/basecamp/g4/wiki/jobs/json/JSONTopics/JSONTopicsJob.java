@@ -10,6 +10,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
+/**
+ * Reads a list of json-formatted wiki titles
+ * and performs a word count. -> Most used words in all wiki titles are returned.
+ */
 public class JSONTopicsJob implements WikiJob {
 
     private JobConf conf;

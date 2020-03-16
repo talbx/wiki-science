@@ -10,6 +10,10 @@ import org.unihh.basecamp.g4.wiki.jobs.WikiJob;
 
 import java.io.IOException;
 
+/**
+ * Reads a list of xml-based wiki articles
+ * and counts the redirect articles
+ */
 public class MostRedirectsJob implements WikiJob {
     private JobConf conf;
 

@@ -13,6 +13,9 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.util.function.Function;
 
+/**
+ * Transforms a hadoop Text to a XML Node document
+ */
 public class NodeBuilder implements Function<Text, Node> {
 
     @Override

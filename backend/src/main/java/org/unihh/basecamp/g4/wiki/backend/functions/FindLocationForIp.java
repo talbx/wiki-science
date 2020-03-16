@@ -15,6 +15,10 @@ import java.util.function.Function;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Returns the ip-address and the corresponding geoLocation
+ * for a given list of LatestContributorsEntities
+ */
 @Service
 public class FindLocationForIp implements Function<List<LatestContributorsEntity>, Map<String, GeoLocation>> {
 

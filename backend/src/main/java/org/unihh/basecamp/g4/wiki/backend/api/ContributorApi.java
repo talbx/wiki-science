@@ -1,5 +1,7 @@
 package org.unihh.basecamp.g4.wiki.backend.api;
 
+import io.vavr.Function3;
+import org.apache.logging.log4j.util.TriConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.unihh.basecamp.g4.wiki.backend.entity.CountryCount;
@@ -12,7 +14,9 @@ import org.unihh.basecamp.g4.wiki.backend.persistence.LatestContributorsReposito
 import org.unihh.basecamp.g4.wiki.backend.persistence.PremiumContributorsRepository;
 
 import java.util.*;
+import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
@@ -70,6 +74,9 @@ public class ContributorApi {
         return countUsernames(entities);
     }
 
+    private BiFunction<String, Integer, CountryCount> buildCountryCount = (k, v) -> CountryCount.builder().country(k).count(v).build();
+    private BiConsumer<List<CountryCount>, CountryCount> addToList = List::add;
+
     @RequestMapping(path = "/contributorsPerCountry", method = RequestMethod.GET)
     public List<CountryCount> contributorsPerCountry() {
         List<LatestContributorsEntity> top100Ips = top100Ips();
@@ -77,14 +84,7 @@ public class ContributorApi {
 
         List<CountryCount> countryCounts = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
-        for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
-            for (LatestContributorsEntity ip : top100Ips) {
-                if (ip.getUsername().equals(entry.getKey())) {
-                    String country = entry.getValue().getName();
-                    map.put(country, map.getOrDefault(country, 0) + 1);
-                }
-            }
-        }
+        buildContributorMap(top100Ips, locations, map);
 
         map.forEach((key, value) -> {
             CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
@@ -101,20 +101,9 @@ public class ContributorApi {
 
         List<CountryCount> countryCounts = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
-        for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
-            for (LatestContributorsEntity ip : topIps) {
-                if (ip.getUsername().equals(entry.getKey())) {
-                    String country = entry.getValue().getName();
-                    map.put(country, map.getOrDefault(country, 0) + 1);
-                }
-            }
-        }
+        buildContributorMap(topIps, locations, map);
 
-        map.forEach((key, value) -> {
-            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
-            countryCounts.add(countryCount);
-        });
-
+        map.forEach((k, v) -> addToList(countryCounts, k,v));
         return countryCounts;
     }
 
@@ -125,29 +114,38 @@ public class ContributorApi {
 
         List<CountryCount> countryCounts = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
-        for (LatestContributorsEntity ip : top100Ips) {
-            for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
-                if (ip.getUsername().equals(entry.getKey())) {
-                    String country = entry.getValue().getName();
-                    map.put(country, map.getOrDefault(country, 0) + ip.getContributions());
-                }
-            }
-        }
-        map.forEach((key, value) -> {
-            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
-            countryCounts.add(countryCount);
-        });
-        return countryCounts;
+        return getCountryCounts(top100Ips, locations, countryCounts, map);
     }
 
     @RequestMapping(path = "/contributionsPerCountry10K", method = RequestMethod.GET)
     public List<CountryCount> contributionsPerCountry10K() {
         List<LatestContributorsEntity> topIps = top10000Ips();
-        Map<String, GeoLocation> locations = locationFinder.apply(topIps);
 
+        Map<String, GeoLocation> locations = locationFinder.apply(topIps);
         List<CountryCount> countryCounts = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
-        for (LatestContributorsEntity ip : topIps) {
+        return getCountryCounts(topIps, locations, countryCounts, map);
+    }
+
+    private void buildContributorMap(final List<LatestContributorsEntity> topIps, final Map<String, GeoLocation> locations, final Map<String, Integer> map) {
+        for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
+            for (LatestContributorsEntity ip : topIps) {
+                if (ip.getUsername().equals(entry.getKey())) {
+                    String country = entry.getValue().getName();
+                    map.put(country, map.getOrDefault(country, 0) + 1);
+                }
+            }
+        }
+    }
+
+    private void addToList(List<CountryCount> countryCounts, String key, Integer value) {
+        countryCounts.add(CountryCount.builder().country(key).count(value).build());
+    }
+
+
+
+    private List<CountryCount> getCountryCounts(final List<LatestContributorsEntity> ips, final Map<String, GeoLocation> locations, final List<CountryCount> countryCounts, final Map<String, Integer> map) {
+        for (LatestContributorsEntity ip : ips) {
             for (Map.Entry<String, GeoLocation> entry : locations.entrySet()) {
                 if (ip.getUsername().equals(entry.getKey())) {
                     String country = entry.getValue().getName();
@@ -155,12 +153,12 @@ public class ContributorApi {
                 }
             }
         }
-        map.forEach((key, value) -> {
-            CountryCount countryCount = CountryCount.builder().country(key).count(value).build();
-            countryCounts.add(countryCount);
-        });
+        map.forEach((k, v) -> addToList(countryCounts, k,v));
+
         return countryCounts;
     }
+
+
 
     private Long countUsernames(List<PremiumContributorsEntity> entities) {
         return entities.stream().map(PremiumContributorsEntity::getUsername).distinct().count();
