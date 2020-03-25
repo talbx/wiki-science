@@ -79,14 +79,21 @@ When the application is started, you can visit the REST api @ http://localhost:8
 ### Setup
 #### Install Flutter
 Make sure you have correctly installed Flutter on your computer.
+
 For more information and a detailed tutorial check out https://flutter.dev/docs/get-started/install.
-#### Run
+
+### Enable web support
 As far as now, web support for Flutter is still in beta, but you can enable web support for the Flutter version on your computer manually.
+
 Check out https://flutter.dev/docs/get-started/web for a step for step guide to use the latest version of the Flutter SDK from the beta channel and enable web support.
+
+#### Run
 When you have web support enabled, you can run your project on the Chrome browser with the following command: ```flutter run -d chrome```.
 #### Build
 Run the following command to generate a release build: ```flutter build web```.
+
 This will create a 'build' folder in your project folder. You can find the index.html and other necessary documents under 'projectFolder'/build/web/
+
 ### Deploy
 To deploy the frontend, just copy all sources below build/web/ into the static resources of the backend application.
 A resource handler will expose the frontend application to the servlet. The running live demo is also deployed this way.
