@@ -82,7 +82,7 @@ Make sure you have correctly installed Flutter on your computer.
 
 For more information and a detailed tutorial check out https://flutter.dev/docs/get-started/install.
 
-### Enable web support
+#### Enable web support
 As far as now, web support for Flutter is still in beta, but you can enable web support for the Flutter version on your computer manually.
 
 Check out https://flutter.dev/docs/get-started/web for a step for step guide to use the latest version of the Flutter SDK from the beta channel and enable web support.
